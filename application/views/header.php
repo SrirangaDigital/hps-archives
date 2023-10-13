@@ -4,7 +4,7 @@
     <!-- Basic Page Needs
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <meta charset="utf-8">
-    <title><?php if($pageTitle) echo $pageTitle . ' | '; ?>Indian Institute of Technology Madras</title>
+    <title><?php if($pageTitle) echo $pageTitle . ' | '; ?>HPS</title>
     <meta name="description" content="">
     <meta name="author" content="">
 

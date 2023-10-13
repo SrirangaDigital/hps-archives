@@ -56,13 +56,21 @@
                                 <p>Photographs</p>
                             </a>
                         </li>
-	                        <!-- <li class="stat-elem">
-	                            <a href="<?=BASE_URL?>listing/categories/Publication?select=Publication">
+	                        <li class="stat-elem">
+	                            <!-- <a href="<?=BASE_URL?>listing/categories/Publication?select=Publication"> -->
+                                <a href="<?=BASE_URL?>Magazine">
 	                                <h2><i class="fa fa-book"></i></h2>
-	                                <p>Publications</p>
+	                                <p>Magazine</p>
 	                            </a>
 	                        </li>
-	                        <li class="stat-elem">
+                            <li class="stat-elem">
+                                <!-- <a href="<?=BASE_URL?>listing/categories/Publication?select=Publication"> -->
+                                <a href="<?=BASE_URL?>Documents">
+                                    <h2><i class="fa fa-envelope"></i></h2>
+                                    <p>Documents</p>
+                                </a>
+                            </li>
+<!-- 	                        <li class="stat-elem">
 	                            <a href="<?=BASE_URL?>listing/artefacts/Multimedia%20File?Category=Oral+History+Archives">
 	                                <h2><i class="fa fa-volume-up"></i></h2>
 	                                <p>Oral History Archives</p>
@@ -82,7 +90,7 @@
 	                        </li> -->
                     </ul>
                 </div>
-<!--                 <div class="col-md-12">
+                <!-- <div class="col-md-12">
                     <ul class="list-inline">
                         <li class="stat-elem">
                             <a href="<?=BASE_URL?>DAA" target="_blank">
