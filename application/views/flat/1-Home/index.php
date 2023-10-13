@@ -51,7 +51,7 @@
                     <h1>Gallery</h1>
                     <ul class="list-inline">
                         <li class="stat-elem">
-                            <a href="<?=BASE_URL?>listing/categories/Photograph?select=Collection">
+                            <!-- <a href="<?=BASE_URL?>listing/categories/Photograph?select=Collection"> -->
                                 <h2><i class="fa fa-image"></i></h2>
                                 <p>Photographs</p>
                             </a>
