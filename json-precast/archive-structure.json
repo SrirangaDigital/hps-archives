@@ -1,0 +1,21 @@
+{
+	"Photograph" : {
+		"selectKey" : [
+			"Collection",
+			"Album"
+		],
+		"sortKey" : {"Caption" : 1}
+	},
+	"Publication" : {
+		"selectKey" : ["Publication"],
+		"sortKey" : {"Date" : -1}
+	},
+	"Multimedia File" : {
+		"selectKey" : ["Category"],
+		"sortKey" : {"Date" : -1, "Description" : 1}
+	},
+	"Miscellaneous Video" : {
+		"selectKey" : ["Category"],
+		"sortKey" : {"Date" : -1, "Description" : 1}
+	}
+}

@@ -1,0 +1,98 @@
+{
+    "id": "002/002/1987-02",
+    "Type": "Publication",
+    "Publication": "Campastimes",
+    "Issue": "02",
+    "Date": "1987-02-00",
+    "Toc": [
+        {
+            "Title": "Editorial",
+            "Page": "3"
+        },
+        {
+            "Title": "Roar !",
+            "Author": "Eds",
+            "Page": "3"
+        },
+        {
+            "Title": "Once Upon A Time. . .",
+            "Author": "Karthik. K, Mandakini.",
+            "Page": "4"
+        },
+        {
+            "Title": "A Farewell Note",
+            "Author": "P. Seshu, Ph.D",
+            "Page": "6"
+        },
+        {
+            "Title": "How I Survived",
+            "Author": "Venugopal Menon Jipmer",
+            "Page": "7"
+        },
+        {
+            "Title": "The Diogenes Law Diminishing Damages.",
+            "Page": "8"
+		},
+        {
+            "Title": "Distant Strains",
+            "Author": "P. Ganesh.",
+             "Page": "9"
+		},
+        {
+            "Title": "One And The Other",
+            "Author": "P. Ganesh.",
+             "Page": "10"
+		},
+        {
+            "Title": "Wait Until Dark",
+            "Author": "Anuradha Chitrapu.",
+            "Page": "12"
+        },
+        {
+            "Title": "One Venus, Here I Come.",
+            "Author": "R. Sridhar, I.I.T.M.",
+            "Page": "14"
+        },
+        {
+            "Title": "Log of Agent-PC/XT",
+            "Author": "Satyanarayana",
+           "Page": "16"
+        },
+        {
+            "Title": "21st Century",
+            "Author": "Sriranjan Chaudhuri",
+            "Page": "17"                      
+        },
+        {
+            "Title": "Adventures of A Research Scholar",
+            "Author": "Geta",
+            "Page": "19,20"
+        },
+        {
+            "Title": "The Rahu Column (This Sem For 'u')",
+            "Page": "21"
+        },
+        {
+            "Title": "Which Path Did I Take",
+            "Page": "22"
+        },
+        {
+            "Title": "The Photograph",
+            "Author": "Rajat Mukherjee.",
+            "Page": "23"
+        },
+        {
+            "Title": "Re-Quest",
+            "Author": "R. Balaji",
+             "Page": "24"
+        },
+        {
+            "Title": "Tv-The Idiot Box",
+            "Page": "25"
+        },
+        {
+            "Title": "The Mood (Tarams Polamaa?)",
+            "Page": "26"
+        }
+	]
+}

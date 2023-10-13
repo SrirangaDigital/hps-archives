@@ -1,0 +1,207 @@
+{
+    "id": "002/001/004",
+    "Type": "Publication",
+    "Publication": "Annual Number",
+    "Date": "1963-02-15",
+    "Toc": [
+        {
+            "Title": "Editorial",
+            "Page": "12"
+        },
+        {
+            "Title": "Dr. h. c. Heinrich Luebke",
+            "Author": "N. Klein",
+            "Page": "15"
+        },
+        {
+            "Title": "A Resolve",
+            "Author": "V. S. Kumar",
+            "Page": "16",
+            "Keywords": "Poem, India, Patriot"
+        },
+        {
+            "Title": "Keys",
+            "Author": "S. Nageshwar",
+            "Page": "17",
+            "Keywords": "Hostel Life, Insti Life, Humour, Late, Attendance"
+        },
+        {
+            "Title": "Why did the Chinese attack us",
+            "Author": "T.S. Ananthu",
+            "Page": "20",
+            "Keywords": "Sino-Indian War, War, India, Winning Entry"
+        },
+        {
+            "Title": "Long in Delay",
+            "Author": "N. Ramesh",
+            "Page": "29",
+            "Keywords": "Technology, advancement, education, institute, progress"
+        },
+        {
+            "Title": "Rewriting Indian History",
+            "Author": "Y. S. Vairana Pillai",
+            "Page": "30",
+            "Keywords": "Architecture, history, science, civilization, technology"
+        },
+        {
+            "Title": "Was there Love?",
+            "Author": "N. Ramesh",
+            "Page": "33",
+            "Keywords": "United states, president, Russia"
+        },
+        {
+            "Title": "Ah ! That Unnecessary Evil",
+            "Author": "G. T. Sundararajan",
+            "Page": "34",
+            "Keywords": "Politics, economics, taxation policy, equality"
+        },
+        {
+            "Title": "Emotions and Human Behaviour",
+            "Author": "V. Ranganathan",
+            "Page": "",
+            "Keywords": "Photograph"
+        },
+        {
+            "Title": "A Sonnet on Vivekananda",
+            "Author": "G. Viswanathan",
+            "Page": "38",
+            "Keywords": "Poem, college, arrest, police"
+        },
+        {
+            "Title": "Stumped",
+            "Author": "M. Vikram Rao",
+            "Page": "39",
+            "Keywords": "Training programmes, industrial age, planning commission "
+        },
+        {
+            "Title": "The Society of the Invisible Intellectuals",
+            "Author": "D. D. Samuel",
+            "Page": "44",
+            "Keywords": "History, ancient, religion, diversity"
+        },
+        {
+            "Title": "On Neutrality",
+            "Author": "T. V. G. Krishnamurthy and D. B. Venkateshwaralu",
+            "Page": "48",
+            "Keywords": "Industrial safety, accidents, humour"
+        },
+        {
+            "Title": "The Panther from Baroda",
+            "Author": "R. Natarajan",
+            "Page": "53",
+            "Keywords": "Socialism, corruption, democracy, ideology"
+        },
+        {
+            "Title": "One more N",
+            "Author": "R. Dave",
+            "Page": "56",
+            "Keywords": "Cartoons, humour"
+        },
+        {
+            "Title": "The Absent Minded Engineer",
+            "Author": "V. Koteesvaran",
+            "Page": "61",
+            "Keywords": "Socialism, corruption, democracy, ideology"
+        },
+        {
+            "Title": "No man is an island",
+            "Author": "\"Umbra\"",
+            "Page": "64",
+            "Keywords": "Cartoons, humour"
+        },
+        {
+            "Title": "Twilight in the Campus",
+            "Author": "\"Umbra\"",
+            "Page": "71",
+            "Keywords": "Technology, advancement, education, institute, progress"
+        },
+        {
+            "Title": "K vs. K",
+            "Author": "J. C. Camillus",
+            "Page": "72",
+            "Keywords": "Architecture, history, science, civilization, technology"
+        },
+        {
+            "Title": "The Opium Den",
+            "Author": "P. Mohan",
+            "Page": "74",
+            "Keywords": "Technology, advancement, education, institute, progress"
+        },
+        {
+            "Title": "Some Reflections on Inertia",
+            "Author": "D. V. Reddy",
+            "Page": "77",
+            "Keywords": "Architecture, history, science, civilization, technology"
+        },
+        {
+            "Title": "Be Happy",
+            "Author": "K. V. Rangaswamy",
+            "Page": "80",
+            "Keywords": "United states, president, Russia"
+        },
+        {
+            "Title": "Alien in One's own land",
+            "Author": "Th. Ramachandran",
+            "Page": "82",
+            "Keywords": "Technology, advancement, education, institute, progress"
+        },
+        {
+            "Title": "This is Delhi",
+            "Author": "R. A. Vaswani",
+            "Page": "85",
+            "Keywords": "Architecture, history, science, civilization, technology"
+        },
+        {
+            "Title": "Our Library",
+            "Author": "G. Viswanathan",
+            "Page": "88",
+            "Keywords": "United states, president, Russia"
+        },
+        {
+            "Title": "World's Scriptures",
+            "Author": "V. K. Vedapuri",
+            "Page": "95",
+            "Keywords": "Politics, economics, taxation policy, equality"
+        },
+        {
+            "Title": "Viper, Thy Neighbour",
+            "Author": "T. S. R.",
+            "Page": "103",
+            "Keywords": "Photograph"
+        },
+        {
+            "Title": "I Hiss",
+            "Author": "Snake",
+            "Page": "104",
+            "Keywords": "Poem, college, arrest, police"
+        },
+        {
+            "Title": "Jest Before Justice",
+            "Author": "S. Srikant",
+            "Page": "106",
+            "Keywords": "Training programmes, industrial age, planning commission "
+        },
+        {
+            "Title": "Perennial Flower",
+            "Author": "Venugopal",
+            "Page": "114",
+            "Keywords": "History, ancient, religion, diversity"
+        },
+        {
+            "Title": "The Atom",
+            "Author": "S. Sreenivasan",
+            "Page": "117",
+            "Keywords": "Industrial safety, accidents, humour"
+        },
+        {
+            "Title": "3rd December 1962 - A Red Letter Day",
+            "Author": "R. Krishnamurthi",
+            "Page": "118",
+            "Keywords": "Socialism, corruption, democracy, ideology"
+        },
+        {
+            "Title": "Reports-Yellow Pages",
+            "Page": "127"
+        }
+    ]
+}
