@@ -51,7 +51,7 @@
                     <h1>Gallery</h1>
                     <ul class="list-inline">
                         <li class="stat-elem">
-                            <!-- <a href="<?=BASE_URL?>listing/categories/Photograph?select=Collection"> -->
+                            <a href="<?=BASE_URL?>listing/categories/Photograph?select=Collection">
                                 <h2><i class="fa fa-image"></i></h2>
                                 <p>Photographs</p>
                             </a>
@@ -70,6 +70,13 @@
                                     <p>Documents</p>
                                 </a>
                             </li>
+
+
+
+
+
+
+
 <!-- 	                        <li class="stat-elem">
 	                            <a href="<?=BASE_URL?>listing/artefacts/Multimedia%20File?Category=Oral+History+Archives">
 	                                <h2><i class="fa fa-volume-up"></i></h2>
