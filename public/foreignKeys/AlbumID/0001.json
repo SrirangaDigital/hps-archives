@@ -1,7 +1,6 @@
 {
     "AlbumID": "0001",
-    "Date": "28th December 1964",
-    "Place": "Stadium",
+    "Place": "Hyderabad Public School",
     "ForeignKeyType": "AlbumID",
     "ForeignKeyId": "0001",
     "Album": "Independence Day"
