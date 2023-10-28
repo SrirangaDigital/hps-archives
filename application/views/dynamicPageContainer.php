@@ -4,12 +4,12 @@
         <div class="col-md-12 text-center">
             <ul class="list-inline sub-nav">
                 <li><a href="<?=BASE_URL?>listing/Categories/Photograph?select=Collection">Photographs</a></li>
-                <li><a>·</a></li>
-                <li><a href="<?=BASE_URL?>listing/Categories/Publication?select=Publication">Publications</a></li>
+                <!-- <li><a>·</a></li> -->
+                <!-- <li><a href="<?=BASE_URL?>listing/Categories/Publication?select=Publication">Publications</a></li>
                 <li><a>·</a></li>
                 <li><a href="<?=BASE_URL?>listing/artefacts/Multimedia%20File?Category=Oral+History+Archives">Oral History Archives</a></li>
                 <li><a>·</a></li>
-		<li><a href="<?=BASE_URL?>listing/artefacts/Miscellaneous%20Video?Category=Videos">Videos</a></li>
+		<li><a href="<?=BASE_URL?>listing/artefacts/Miscellaneous%20Video?Category=Videos">Videos</a></li> -->
                 <li><a>·</a></li>
                 <li id="searchForm">
                     <form class="navbar-form" role="search" action="<?=BASE_URL?>search/field/" method="get">
@@ -18,16 +18,16 @@
                             <div class="input-group-btn">
                                 <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                                 <div class="checkbox" id="toggleSearchType">
-                                    <label>
+                                    <!-- <label>
                                         <input type="checkbox"> Fulltext search
-                                    </label>
+                                    </label> -->
                                 </div>
                             </div>
                         </div>
                     </form>
 				</li>
                 <li><a>·</a></li>
-                <li><a href="<?=BASE_URL?>search/advanced">Advanced Search</a></li>                
+                <!-- <li><a href="<?=BASE_URL?>search/advanced">Advanced Search</a></li>                 -->
             </ul>
         </div>
     </div>
