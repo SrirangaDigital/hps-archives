@@ -4,6 +4,7 @@
     "AlbumID": "0001",
     "Caption": "Independence Day celebration 1967",
     "Event": "Independence Day",
+    "year" : "1967",
     "AccessLevel": 0,
     "CollectionId": "0001",
     "Description" : "Guard of Honor to VIP"
