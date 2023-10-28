@@ -58,7 +58,7 @@ $(document).ready(function() {
     // $( '.email-submit' ).on('click', function(event){
 
     //     event.preventDefault();
-    //     alert('This facility will be made available shortly. Till then please write to us as heritage@iitm.ac.in');
+    //     alert('This facility will be made available shortly. ');
     // });
 });
 
