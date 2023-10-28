@@ -25,6 +25,7 @@ class search extends Controller {
 
 		$result = $this->model->getSearchResults($query, $page);
 
+
 		if($page == '1')
 			($result != 'noData') ? $this->view('search/result', $result) : $this->view('error/noResults', 'search/index/');
 		else
