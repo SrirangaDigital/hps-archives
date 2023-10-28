@@ -19,10 +19,9 @@
 						Telangana, India, <br />
 						Pin Code: 500016.<br />
 					</h2>
-					<h2>
+					<!-- <h2>
 						<span class="contact-info"><i class="fa fa-link"></i>&nbsp;Website</span><br />
-						heritage.iitm.ac.in
-					</h2>	
+					</h2>	 -->
 
 				</div>	
 				<div class="col-md-4">	
