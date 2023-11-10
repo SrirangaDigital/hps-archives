@@ -1,7 +1,7 @@
 {
     "AlbumID": "0015",
-    "Date": "0000-01-21",
+    "Place": "HPS",
     "ForeignKeyType": "AlbumID",
     "ForeignKeyId": "0015",
-    "Album": "Album 0015: Saarang 05"
+    "Album": "Draw Of Lots"
 }

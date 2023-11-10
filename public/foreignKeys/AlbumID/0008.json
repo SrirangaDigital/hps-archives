@@ -1,7 +1,9 @@
 {
     "AlbumID": "0008",
-    "Date": "13-06-1964",
+    "Place": "HPS",
     "ForeignKeyType": "AlbumID",
     "ForeignKeyId": "0008",
-    "Album": ""
+    "Album": "Farewell"
 }
+
+   

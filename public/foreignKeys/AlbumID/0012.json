@@ -1,8 +1,7 @@
 {
     "AlbumID": "0012",
-    "Date": "1962-03-09",
-    "Place": "Building Sciences Block",
+    "Place": "HPS",
     "ForeignKeyType": "AlbumID",
     "ForeignKeyId": "0012",
-    "Album": "Album 0012: 3rd Institute Day"
+    "Album": "Freshers Party"
 }

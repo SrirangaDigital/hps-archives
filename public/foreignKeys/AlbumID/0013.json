@@ -1,8 +1,7 @@
 {
     "AlbumID": "0013",
-    "Date": "1968-01-22",
-    "Place": "Central Workshop and HSS Block",
+    "Place": "HPS",
     "ForeignKeyType": "AlbumID",
     "ForeignKeyId": "0013",
-    "Album": "Album 0013: Visit of Baron Von Mirbach, Ambassador of the Federal Republic of Germany in India"
+    "Album": "Fancy Dress"
 }
