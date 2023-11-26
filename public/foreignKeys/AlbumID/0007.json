@@ -1,7 +1,0 @@
-{
-    "AlbumID": "0007",
-    "Place": "HPS",
-    "ForeignKeyType": "AlbumID",
-    "ForeignKeyId": "0007",
-    "Album": "Class Photos"
-}

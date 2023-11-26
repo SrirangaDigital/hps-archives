@@ -1,7 +1,0 @@
-{
-    "AlbumID": "0010",
-    "Place": "HPS",
-    "ForeignKeyType": "AlbumID",
-    "ForeignKeyId": "0010",
-    "Album": "Childrens Day"
-}
