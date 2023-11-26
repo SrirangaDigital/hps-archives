@@ -20,6 +20,7 @@ class listing extends Controller {
 		if(array_search($selectKey, $precastSelectKeys) === false) {$this->view('error/index');return;}
 
 		$categories = $this->model->getCategories($type, $selectKey, $page, $query);
+		
 
 		if($page == '1')
 			($categories != 'noData') ? $this->view('listing/categories', $categories) : $this->view('error/index');
