@@ -76,6 +76,21 @@
                     <li><a href="<?=BASE_URL?>Contact_info">Contact</a></li>
                     <!-- <li><a>·</a></li> -->
                     <li>
+                    <li>
+                        <form class="navbar-form" role="search" action="<?=BASE_URL?>search/field/" method="get">
+                        <div class="input-group add-on">
+                            <input type="text" class="form-control" placeholder="Search" name="term" id="term">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                <div class="checkbox" id="toggleSearchType">
+                                    <!-- <label>
+                                        <input type="checkbox"> Fulltext search
+                                    </label> -->
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    </li>
 <!-- <?php
 if(isset($_SESSION['login']))
 {

@@ -5,12 +5,13 @@
             <ul class="list-inline sub-nav">
                 <li><a href="<?=BASE_URL?>listing/Categories/Photograph?select=Collection">Photographs</a></li>
                 <!-- <li><a>·</a></li> -->
-                <!-- <li><a href="<?=BASE_URL?>listing/Categories/Publication?select=Publication">Publications</a></li>
-                <li><a>·</a></li>
-                <li><a href="<?=BASE_URL?>listing/artefacts/Multimedia%20File?Category=Oral+History+Archives">Oral History Archives</a></li>
-                <li><a>·</a></li>
-		<li><a href="<?=BASE_URL?>listing/artefacts/Miscellaneous%20Video?Category=Videos">Videos</a></li> -->
-                <li><a>·</a></li>
+                <li><a href="<?=BASE_URL?>listing/Categories/Magazine?select=Magazine">Magazine</a></li>
+                <!-- <li><a>·</a></li> -->
+                <li><a href="<?=BASE_URL?>listing/Categories/Newspaper?select=Newspaper">News Paper Clippings</a></li>
+                <!-- <li><a>·</a></li> -->
+                <!-- <li><a href="<?=BASE_URL?>listing/artefacts/Multimedia%20File?Category=Oral+History+Archives">Oral History Archives</a></li> -->
+                <!-- <li><a>·</a></li> -->
+		<!-- <li><a href="<?=BASE_URL?>listing/artefacts/Miscellaneous%20Video?Category=Videos">Videos</a></li> -->
                 <li id="searchForm">
                     <form class="navbar-form" role="search" action="<?=BASE_URL?>search/field/" method="get">
                         <div class="input-group add-on">
@@ -26,8 +27,8 @@
                         </div>
                     </form>
 				</li>
-                <li><a>·</a></li>
-                <!-- <li><a href="<?=BASE_URL?>search/advanced">Advanced Search</a></li>                 -->
+                <!-- <li><a>·</a></li> -->
+                <li><a href="<?=BASE_URL?>search/advanced">Advanced Search</a></li>                
             </ul>
         </div>
     </div>

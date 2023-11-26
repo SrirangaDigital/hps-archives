@@ -29,17 +29,17 @@
                             </a>
                         </li>
 	                        <li class="stat-elem">
-	                            <!-- <a href="<?=BASE_URL?>listing/categories/Publication?select=Publication"> -->
-                                <a href="<?=BASE_URL?>Magazine">
+	                            <a href="<?=BASE_URL?>listing/categories/Magazine?select=Magazine">
+                                <!-- <a href="<?=BASE_URL?>Magazine"> -->
 	                                <h2><i class="fa fa-book"></i></h2>
 	                                <p>Magazine</p>
 	                            </a>
 	                        </li>
                             <li class="stat-elem">
-                                <!-- <a href="<?=BASE_URL?>listing/categories/Publication?select=Publication"> -->
-                                <a href="<?=BASE_URL?>Documents">
+                                <a href="<?=BASE_URL?>listing/categories/Newspaper?select=Newspaper">
+                                <!-- <a href="<?=BASE_URL?>Documents"> -->
                                     <h2><i class="fa fa-envelope"></i></h2>
-                                    <p>Documents</p>
+                                    <p>News Paper Clippings</p>
                                 </a>
                             </li>
 
