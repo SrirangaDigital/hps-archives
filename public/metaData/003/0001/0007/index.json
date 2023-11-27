@@ -1,9 +1,10 @@
 {
 	"id": "003/0001/0007",
-	"Type": "Documents",
+	"Type": "Newspaper",
 	"Date" : "1996 -10-19",
-	"Event": "Paper clippings",
+	"Event": "News Paper",
+	"Media Title" : "",
 	"Year": "1996",
-	"AccessLevel": 0,
-	"Caption" : "Paper clipping"
+	"Place" : "Hyderabad",
+	"AccessLevel": 0
 }
