@@ -39,20 +39,21 @@ class searchModel extends Model {
 	
 		$skip = ($page - 1) * PER_PAGE;
 		$limit = PER_PAGE;
-	
+		// var_dump($dataFilter); exit(0);
+		
 		$iterator = $collection->find(
 			$dataFilter,
 			[
-				'projection' => [
-					'score' => [
-						'$meta' => 'textScore'
-					],
-				],
-				'sort' => [
-					'score' => [
-						'$meta' => 'textScore'
-					]
-				],
+				// 'projection' => [
+				// 	'score' => [
+				// 		'$meta' => 'textScore'
+				// 	],
+				// ],
+				// 'sort' => [
+				// 	'score' => [
+				// 		'$meta' => 'textScore'
+				// 	]
+				// ],
 				'skip' => $skip,
 				'limit' => $limit
 			]
