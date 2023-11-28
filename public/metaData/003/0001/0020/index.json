@@ -2,7 +2,7 @@
 	"id": "003/0001/0020",
 	"Type": "Newspaper",
 	"Date" : "2002-10-19",
-	"Event": "News Paper",
+	"Media": "News Paper",
 	"Media Title" : "",
 	"Year": "2002",
 	"Place" : "Hyderabad",
