@@ -1,26 +1,22 @@
 {
 	"Photograph" : {
 		"selectKey" : [
-			"Collection",
-			"Album"
+			"Event",
+			"Year"
 		],
-		"sortKey" : {"Caption" : 1}
+		"sortKey" : {"Year" : 1}
 	},
 	"Magazine" : {
-		"selectKey" : ["Magazine"],
-		"sortKey" : {"year" : -1}
+		"selectKey" : [
+			"Name"
+		],
+		"sortKey" : {"Year" : -1}
 	},
 	"Newspaper" : {
-		"selectKey" : ["Newspaper"],
-		"sortKey" : {"year" : -1}
-	},
-	"Multimedia File" : {
-		"selectKey" : ["Category"],
-		"sortKey" : {"Date" : -1, "Description" : 1}
-	},
-	"Miscellaneous Video" : {
-		"selectKey" : ["Category"],
-		"sortKey" : {"Date" : -1, "Description" : 1}
+		"selectKey" : [
+			"Year"
+		],
+		"sortKey" : {"Year" : -1}
 	}
 }
 
