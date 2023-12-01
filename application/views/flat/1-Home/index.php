@@ -23,20 +23,20 @@
                     <h1>Gallery</h1>
                     <ul class="list-inline">
                         <li class="stat-elem">
-                            <a href="<?=BASE_URL?>listing/categories/Photograph?select=Collection">
+                            <a href="<?=BASE_URL?>listing/categories/Photograph?select=Event">
                                 <h2><i class="fa fa-image"></i></h2>
                                 <p>Photographs</p>
                             </a>
                         </li>
 	                        <li class="stat-elem">
-	                            <a href="<?=BASE_URL?>listing/categories/Magazine?select=Magazine">
+	                            <a href="<?=BASE_URL?>listing/Categories/Magazine?select=Name">
                                 <!-- <a href="<?=BASE_URL?>Magazine"> -->
 	                                <h2><i class="fa fa-book"></i></h2>
 	                                <p>Magazine</p>
 	                            </a>
 	                        </li>
                             <li class="stat-elem">
-                                <a href="<?=BASE_URL?>listing/categories/Newspaper?select=Newspaper">
+                                <a href="<?=BASE_URL?>listing/categories/Newspaper?select=Year">
                                 <!-- <a href="<?=BASE_URL?>Documents"> -->
                                     <h2><i class="fa fa-envelope"></i></h2>
                                     <p>News Paper Clippings</p>

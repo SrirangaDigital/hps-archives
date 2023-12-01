@@ -3,11 +3,11 @@
         <!-- Column 1 -->
         <div class="col-md-12 text-center">
             <ul class="list-inline sub-nav">
-                <li><a href="<?=BASE_URL?>listing/Categories/Photograph?select=Collection">Photographs</a></li>
+                <li><a href="<?=BASE_URL?>listing/Categories/Photograph?select=Event">Photographs</a></li>
                 <!-- <li><a>·</a></li> -->
-                <li><a href="<?=BASE_URL?>listing/Categories/Magazine?select=Magazine">Magazine</a></li>
+                <li><a href="<?=BASE_URL?>listing/Categories/Magazine?select=Name">Magazine</a></li>
                 <!-- <li><a>·</a></li> -->
-                <li><a href="<?=BASE_URL?>listing/Categories/Newspaper?select=Newspaper">News Paper Clippings</a></li>
+                <li><a href="<?=BASE_URL?>listing/Categories/Newspaper?select=Year">News Paper Clippings</a></li>
                 <!-- <li><a>·</a></li> -->
                 <!-- <li><a href="<?=BASE_URL?>listing/artefacts/Multimedia%20File?Category=Oral+History+Archives">Oral History Archives</a></li> -->
                 <!-- <li><a>·</a></li> -->
