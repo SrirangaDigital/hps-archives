@@ -1,10 +1,11 @@
 {
 	"id": "003/0001/0003",
 	"Type": "Newspaper",
+	"Category" : "Newspaper",
 	"Date" : "",
 	"Media": "News Paper",
 	"Media Title" : "",
-	"Year": "",
+	"Year": "2002",
 	"Place" : "Hyderabad",
 	"AccessLevel": 0
 }

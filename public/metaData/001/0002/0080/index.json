@@ -1,8 +1,9 @@
 {
 	"id": "001/0002/0080",
 	"Type": "Photograph",
+	"Category" : "Photograph",
 	"AlbumID": "0002",
-	"Event": "Independence Day 2015",
+	"Event": "Independence Day",
 	"Year" : "2015",
 	"AccessLevel": 0,
 	"CollectionId": "0002",

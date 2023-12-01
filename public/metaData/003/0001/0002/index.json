@@ -1,10 +1,11 @@
 {
 	"id": "003/0001/0002",
 	"Type": "Newspaper",
+	"Category" : "Newspaper",
 	"Date" : "",
-	"Event": "News Paper",
+	"Media": "News Paper",
 	"Media Title" : "Times News Network",
-	"Year": "",
+	"Year": "2002",
 	"Place" : "Hyderabad",
 	"AccessLevel": 0
 }

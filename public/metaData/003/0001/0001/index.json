@@ -1,6 +1,7 @@
 {
 	"id": "003/0001/0001",
 	"Type": "Newspaper",
+	"Category" : "Newspaper",
 	"Date" : "2002-01-21",
 	"Media": "News Paper",
 	"Media Title" : "Deccan Chronicle",

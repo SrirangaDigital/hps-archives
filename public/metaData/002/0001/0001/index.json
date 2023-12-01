@@ -1,8 +1,9 @@
 {
 	"id": "002/0001/0001",
-	"Name" : "The Eagle",
 	"Type": "Magazine",
+	"Category" : "Magazine",
 	"Date": "01-01-1977",
+	"Name" : "Eagle",
 	"Year" : "1977",
 	"AccessLevel": 0
 
