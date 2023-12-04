@@ -220,7 +220,8 @@ function buildMasonryFromJson(json){
             // if(obj[i].leafCount > 1) displayString += 's'; 
             // displayString +=  '<br /><span class="link"><i class="fa fa-link"></i></span></div>';
             displayString += '</div>';
-            displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p>' + obj[i].leafCount + ' ' + obj[i].parentType;
+            displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p>';
+            // displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p>' + obj[i].leafCount + ' ' + obj[i].parentType;
             displayString += '</a>';
             displayString += '</div>';
 

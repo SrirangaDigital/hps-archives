@@ -57,7 +57,7 @@ $(document).ready(function(){
                     <!-- <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div> -->
                 </div>
                 <p class="image-desc"><strong><?=$row['name']?></strong></p>
-                <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div>
+                <!-- <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div> -->
             </a>
         </div>
 <?php } ?>
