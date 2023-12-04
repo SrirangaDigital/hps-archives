@@ -251,7 +251,7 @@ a.moretag {
 
   content: ', ';
 }
-#grid.container .post img { padding: 0; }
+#grid.container .post img { padding: 0; margin: 0}
 
 /* Small devices */
 @media (min-width: 430px) {
