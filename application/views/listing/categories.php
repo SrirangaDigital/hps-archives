@@ -1,3 +1,13 @@
+<!-- <style type="text/css">
+    .img-responsive{
+        max-width: 45%;
+        height: 40%;
+    }
+    .fixOverlayDiv{
+        max-width: 50%;
+        height: 40%;
+    }
+</style> -->
 <?php 
     $auxiliary = array_pop($data);
     $parentType = $auxiliary['parentType'];
@@ -42,9 +52,9 @@ $(document).ready(function(){
 <?php foreach ($data as $row) { ?>
         <div class="post">
             <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>" target="_blank">
-                <div class="fixOverlayDiv">
+                <div >
                     <!-- <img class="img-responsive" src="<?=$row['thumbnailPath']?>"> -->
-                    
+                    <!-- <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div> -->
                 </div>
                 <p class="image-desc"><strong><?=$row['name']?></strong></p>
                 <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div>

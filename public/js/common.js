@@ -196,28 +196,35 @@ function buildMasonryFromJson(json){
 
     var obj = JSON.parse(json);
     var displayString = "";
-    
-    var aux = (obj.auxiliary === undefined) ? '' : obj.auxiliary;
-    var filterString = (aux.filterString === undefined) ? '' : aux.filterString;
 
+    var aux = !(obj.auxiliary === undefined) ? '' : obj.auxiliary;
+    var filterString = (aux.filterString === undefined) ? '' : aux.filterString;
+   
     for(i = 0; i < Object.keys(obj).length - 1; i++) {
 
-        if (obj[i].id === undefined) {
+        if (obj[i].id == undefined) {
+
+            // document.write(obj[i].id);
             
             // This snippet id for listing of categories
+
+
 
             displayString += '<div class="post">';
             displayString += '<a href="' + obj[i].nextURL + '" title="View Album" target="_blank">';
             displayString += '<div class="fixOverlayDiv">';
-            displayString += '<img class="img-responsive" src="' + obj[i].thumbnailPath + '">';
-            displayString += '<div class="OverlayText">' + obj[i].leafCount + ' ' + obj[i].parentType;
+            // displayString += '<img class="img-responsive" src="' + obj[i].thumbnailPath + '">';
+            // displayString += ' + obj[i].thumbnailPath';
+            // displayString += '<div>' + obj[i].leafCount + ' ' + obj[i].parentType;
             // Due to lack of better methods, plural is handled here itself
-            if(obj[i].leafCount > 1) displayString += 's'; 
-            displayString +=  '<br /><span class="link"><i class="fa fa-link"></i></span></div>';
+            // if(obj[i].leafCount > 1) displayString += 's'; 
+            // displayString +=  '<br /><span class="link"><i class="fa fa-link"></i></span></div>';
             displayString += '</div>';
-            displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p>';
+            displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p>' + obj[i].leafCount + ' ' + obj[i].parentType;
             displayString += '</a>';
             displayString += '</div>';
+
+
         }
         else{
 
@@ -229,17 +236,21 @@ function buildMasonryFromJson(json){
             displayString += '</a>';
             displayString += '<p class="image-desc">' + obj[i].cardName + '</p>';
             displayString += '</div>';
+
+
         }
     }
 
     var $content = $(displayString);
+
+    // vardump($content); exit(0);
     $content.css('display','none');
 
     $grid.append($content).imagesLoaded().done(
         function(){
             $content.fadeIn(500);
             $grid.masonry('appended', $content);
-            $('#loader-icon').hide();
+            $('#loader-icon').show();
 
             $('#grid').attr('data-go', '1');
         }
