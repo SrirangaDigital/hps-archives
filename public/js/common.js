@@ -210,19 +210,21 @@ function buildMasonryFromJson(json){
 
 
 
-            displayString += '<div class="post">';
+            displayString += '<div class="post no-border gap-above-med">';
             displayString += '<a href="' + obj[i].nextURL + '" title="View Album" target="_blank">';
-            displayString += '<div class="fixOverlayDiv">';
+            // displayString += '<div class="fixOverlayDiv">';
             // displayString += '<img class="img-responsive" src="' + obj[i].thumbnailPath + '">';
             // displayString += ' + obj[i].thumbnailPath';
             // displayString += '<div>' + obj[i].leafCount + ' ' + obj[i].parentType;
             // Due to lack of better methods, plural is handled here itself
             // if(obj[i].leafCount > 1) displayString += 's'; 
             // displayString +=  '<br /><span class="link"><i class="fa fa-link"></i></span></div>';
-            displayString += '</div>';
-            displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p>';
-            // displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p>' + obj[i].leafCount + ' ' + obj[i].parentType;
+            // displayString += '</div>';
+            // displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p>';
+            displayString += '<div class="border">';
+            displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p><br />' + obj[i].leafCount + ' ' + obj[i].parentType;
             displayString += '</a>';
+            displayString += '</div>';
             displayString += '</div>';
 
 
