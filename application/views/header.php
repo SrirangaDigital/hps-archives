@@ -70,7 +70,7 @@
                     <li><a href="<?=BASE_URL?>About">About</a></li>
                     <li><a>·</a></li>
                     <li><a href="<?=BASE_URL?>#collection">Gallery</a></li>
-                    <!-- <li><a href="#"><img src="<?=PUBLIC_URL?>images/logo.png" alt="HPS" class="img-circle logo"></a></li> -->
+                    <li><a href="#"><img src="<?=PUBLIC_URL?>images/hpslogonew.png" alt="HPS" class="img-circle logo"></a></li>
                     <!-- <li><a href="<?=BASE_URL?>#physical">Physical Space</a></li> -->
                     <li><a>·</a></li>
                     <li><a href="<?=BASE_URL?>Contact_info">Contact</a></li>

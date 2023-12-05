@@ -1,18 +1,22 @@
-<!-- <style type="text/css">
-    .img-responsive{
-        max-width: 45%;
-        height: 40%;
+<style type="text/css">
+    .border{
+      font-weight: bold;
+      background-color: lightgrey;
+      color: black;
+      border-top: 1px solid black;
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+      border-radius: 15px 15px 0 0;
+      cursor: pointer;
     }
-    .fixOverlayDiv{
-        max-width: 50%;
-        height: 40%;
-    }
-</style> -->
+</style>
 <?php 
     $auxiliary = array_pop($data);
     $parentType = $auxiliary['parentType'];
     $filter = $auxiliary['filter'];
 ?>
+<div class="gap-above-med">
+</div>
 <script>
 $(document).ready(function(){
 
@@ -38,31 +42,58 @@ $(document).ready(function(){
     });
 });     
 </script>
-<div id="grid" class="container-fluid" data-page="1" data-go="1">
-    <div id="posts">
-        <div class="post no-border">
-            <!-- <div class="albumTitle <?=$parentType?>">
-                <span class="head"><?=$parentType?>S</span><br />
-<?php foreach ($filter as $key => $value) { ?>
-                <span class="select"><em><?=preg_replace('/([A-Z])/', " $1", $key)?>:</em> <?=$value?></span><br />
-<?php } ?>
-                <span class="select"><?=preg_replace('/([A-Z])/', " $1", $auxiliary['selectKey'])?><em> - wise</em></span>
-            </div> -->
-        </div>
-<?php foreach ($data as $row) { ?>
-        <div class="post">
-            <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>" target="_blank">
-                <div >
-                    <!-- <img class="img-responsive" src="<?=$row['thumbnailPath']?>"> -->
-                    <!-- <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div> -->
+
+<?php
+    if($parentType == "Magazine"){ ?>
+        <div id="grid" class="container-fluid" data-page="1" data-go="1">
+            <div id="posts">
+                <div class="post no-border">
+                    <div style="background-color: orange;"class="albumTitle <?=$parentType?>">
+                        <span class="head"><?=$parentType?>S</span><br />
+        <?php foreach ($filter as $key => $value) { ?>
+                        <span class="select"><em><?=preg_replace('/([A-Z])/', " $1", $key)?>:</em> <?=$value?></span><br />
+        <?php } ?>
+                        <span class="select"><?=preg_replace('/([A-Z])/', " $1", $auxiliary['selectKey'])?><em> - wise</em></span>
+                    </div>
                 </div>
-                <p class="image-desc"><strong><?=$row['name']?></strong></p>
-                <!-- <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div> -->
+        <?php foreach ($data as $row) { ?>
+                <div class="post">
+                    <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>" target="_blank">
+                        <div class="fixOverlayDiv">
+                            <img class="img-responsive" src="<?=$row['thumbnailPath']?>">
+                            <div class="OverlayText"><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"><i class="fa fa-link"></i></span></div>
+                        </div>
+                        <p class="image-desc"><strong><?=$row['name']?></strong></p>
+                    </a>
+                </div>
+        <?php } ?>
+            </div>
+        </div>
+<?php } else if ($parentType == "Photograph" || $parentType == "Newspaper" ){ ?>
+
+<div  id="grid" class="container-fluid " data-page="1" data-go="1">
+        
+            <div id="posts">
+<?php foreach ($data as $row) { ?>
+        <div class="post no-border gap-above-med">
+            <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>" target="_blank">
+                
+                <div class="border">
+                    <p class="image-desc"><strong><?=$row['name']?></strong></p><br />
+                    <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div>
+                </div>
             </a>
         </div>
 <?php } ?>
+    </div>   
     </div>
+    
+
+
+
 </div>
+<?php } ?>
+
 <div id="loader-icon">
     <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i><br />
     Loading more items
