@@ -2,6 +2,7 @@
     $auxiliary = array_pop($data);
     $parentType = $data[0]['Type'];
     $filter = $auxiliary['filter'];
+
 ?>
 <script>
 $(document).ready(function(){
@@ -28,12 +29,12 @@ $(document).ready(function(){
 <div id="grid" class="container-fluid" data-page="1" data-go="1">
     <div id="posts">
         <div class="post no-border">
-            <!-- <div class="albumTitle <?=$parentType?>">
+            <div style="background-color: orange;" class="albumTitle <?=$parentType?>">
                 <span class="head"><?=$parentType?></span><br />
 <?php foreach (array_reverse($filter) as $key => $value) { ?>
                 <span class="select"><em><?=preg_replace('/([A-Z])/', " $1", $key)?>:</em> <?=$value?></span><br />
 <?php } ?>
-            </div> -->
+            <!-- </div> -->
         </div>
 <?php foreach ($data as $row) { ?>
         <div class="post">

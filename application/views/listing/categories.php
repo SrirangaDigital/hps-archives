@@ -79,7 +79,7 @@ $(document).ready(function(){
             <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>" target="_blank">
                 
                 <div class="border">
-                    <p class="image-desc"><strong><?=$row['name']?></strong></p><br />
+                    <p style="text-align: center;"class="image-desc"><strong><?=$row['name']?></strong></p><br />
                     <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div>
                 </div>
             </a>
