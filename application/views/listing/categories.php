@@ -6,7 +6,8 @@
       border-top: 1px solid black;
       border-right: 1px solid black;
       border-left: 1px solid black;
-      border-radius: 15px 15px 0 0;
+      border-bottom: 1px solid black;
+      border-radius: 15px 15px 15px 15px;
       cursor: pointer;
     }
 </style>
@@ -79,8 +80,8 @@ $(document).ready(function(){
             <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>" target="_blank">
                 
                 <div class="border">
-                    <p style="text-align: center;"class="image-desc"><strong><?=$row['name']?></strong></p><br />
-                    <div ><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div>
+                    <p style="text-align: center; font-size: 20px;"class="image-desc"><strong><?=$row['name']?></strong></p><br />
+                    <div style="padding: 10px;"><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"></span></div>
                 </div>
             </a>
         </div>

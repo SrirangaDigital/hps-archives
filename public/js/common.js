@@ -212,6 +212,7 @@ function buildMasonryFromJson(json){
 
             displayString += '<div class="post no-border gap-above-med">';
             displayString += '<a href="' + obj[i].nextURL + '" title="View Album" target="_blank">';
+
             // displayString += '<div class="fixOverlayDiv">';
             // displayString += '<img class="img-responsive" src="' + obj[i].thumbnailPath + '">';
             // displayString += ' + obj[i].thumbnailPath';
@@ -221,8 +222,13 @@ function buildMasonryFromJson(json){
             // displayString +=  '<br /><span class="link"><i class="fa fa-link"></i></span></div>';
             // displayString += '</div>';
             // displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p>';
+
+
             displayString += '<div class="border">';
-            displayString += '<p class="image-desc"><strong>' + obj[i].name + '</strong></p><br />' + obj[i].leafCount + ' ' + obj[i].parentType;
+            displayString += '<p style="text-align: center; font-size: 20px;"class="image-desc"><strong>' + obj[i].name + '</strong></p><br />';
+            displayString += '<div style="padding: 10px">' +  obj[i].leafCount + ' ' + obj[i].parentType;
+            // displayString += ' + obj[i].leafCount + ' ' + obj[i].parentType ';
+            displayString += '</div>';
             displayString += '</a>';
             displayString += '</div>';
             displayString += '</div>';
@@ -237,7 +243,7 @@ function buildMasonryFromJson(json){
             displayString += '<a href="' + base_url + 'describe/artefact/' + obj[i].idURL + '?' + aux.filterString + '" title="View Details" target="_blank">';
             displayString += '<img class="img-responsive" src="' +  obj[i].thumbnailPath + '">';
             displayString += '</a>';
-            displayString += '<p class="image-desc">' + obj[i].cardName + '</p>';
+            displayString += '<p  class="image-desc">' + obj[i].cardName + '</p>';
             displayString += '</div>';
 
 
