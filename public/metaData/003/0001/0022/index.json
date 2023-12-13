@@ -1,10 +1,9 @@
 {
 	"id": "003/0001/0022",
 	"Type": "Newspaper",
-	"Date" : "",
+	"Date": "2002-11-10",
 	"Media": "News Paper",
-	"Media Title" : "",
+	"Media Title" : "Eenadu",
 	"Year": "2002",
-	"Place" : "Hyderabad",
-	"AccessLevel": 0
+	"Place": "Hyderabad"
 }

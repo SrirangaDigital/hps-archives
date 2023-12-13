@@ -1,11 +1,9 @@
 {
 	"id": "003/0001/0001",
 	"Type": "Newspaper",
-	"Category" : "Newspaper",
-	"Date" : "2002-01-21",
+	"Date": "2002-01-20",
 	"Media": "News Paper",
 	"Media Title" : "Deccan Chronicle",
 	"Year": "2002",
-	"Place" : "Hyderabad",
-	"AccessLevel": 0
+	"Place": "Hyderabad"
 }

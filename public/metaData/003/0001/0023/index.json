@@ -1,10 +1,9 @@
 {
 	"id": "003/0001/0023",
 	"Type": "Newspaper",
-	"Date" : "",
+	"Date": "2002-11-22",
 	"Media": "News Paper",
-	"Media Title" : "",
+	"Media Title" : "Andhra Jyothi",
 	"Year": "2002",
-	"Place" : "Hyderabad",
-	"AccessLevel": 0
+	"Place": "Hyderabad"
 }

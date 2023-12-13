@@ -1,10 +1,9 @@
 {
 	"id": "003/0001/0015",
 	"Type": "Newspaper",
-	"Date" : "",
+	"Date": "2002-09-03",
 	"Media": "News Paper",
-	"Media Title" : "Our Sports Bureau",
+	"Media Title" : "Deccan Chronicle",
 	"Year": "2002",
-	"Place" : "Hyderabad",
-	"AccessLevel": 0
+	"Place": "Hyderabad"
 }

@@ -1,10 +1,9 @@
 {
 	"id": "003/0001/0006",
 	"Type": "Newspaper",
-	"Date" : "",
+	"Date": "2002-02-23",
 	"Media": "News Paper",
-	"Media Title" : "",
+	"Media Title" : "Andhra Bhoomi",
 	"Year": "2002",
-	"Place" : "Hyderabad",
-	"AccessLevel": 0
+	"Place": "Hyderabad"
 }

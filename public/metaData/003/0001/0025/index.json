@@ -1,10 +1,9 @@
 {
 	"id": "003/0001/0025",
 	"Type": "Newspaper",
-	"Date" : "",
+	"Date": "2002-11-24",
 	"Media": "News Paper",
-	"Media Title" : "",
+	"Media Title" : "The Hindu",
 	"Year": "2002",
-	"Place" : "Hyderabad",
-	"AccessLevel": 0
+	"Place": "Hyderabad"
 }

@@ -1,10 +1,9 @@
 {
 	"id": "003/0001/0013",
 	"Type": "Newspaper",
-	"Date" : "",
+	"Date": "2002-08-29",
 	"Media": "News Paper",
-	"Media Title" : "Our Sports Bureau",
+	"Media Title" : "",
 	"Year": "2002",
-	"Place" : "Hyderabad",
-	"AccessLevel": 0
+	"Place": "Hyderabad"
 }

@@ -1,10 +1,9 @@
 {
 	"id": "003/0001/0032",
 	"Type": "Newspaper",
-	"Date" : "",
+	"Date": "2003-01-29",
 	"Media": "News Paper",
-	"Media Title" : "",
-	"Year": "2002",
-	"Place" : "Hyderabad",
-	"AccessLevel": 0
+	"Media Title" : "Hindustan Times",
+	"Year": "2003",
+	"Place": "Hyderabad"
 }

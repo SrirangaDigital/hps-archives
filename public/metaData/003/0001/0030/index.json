@@ -1,10 +1,9 @@
 {
 	"id": "003/0001/0030",
 	"Type": "Newspaper",
-	"Date" : "",
+	"Date": "2002-12-13",
 	"Media": "News Paper",
-	"Media Title" : "Times News Network",
+	"Media Title" : "The Times of India",
 	"Year": "2002",
-	"Place" : "Hyderabad",
-	"AccessLevel": 0
+	"Place": "Hyderabad"
 }
