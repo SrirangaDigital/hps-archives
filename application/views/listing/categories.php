@@ -46,7 +46,7 @@ $(document).ready(function(){
 
 <?php
     if($parentType == "Magazine"){ ?>
-        <div id="grid" class="container-fluid" data-page="1" data-go="1">
+        <div id="grid" class="container" data-page="1" data-go="1">
             <div id="posts">
                 <div class="post no-border">
                     <div style="background-color: orange;"class="albumTitle <?=$parentType?>">
