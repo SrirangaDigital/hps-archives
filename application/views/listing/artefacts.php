@@ -38,7 +38,7 @@ $(document).ready(function(){
         </div>
 <?php foreach ($data as $row) { ?>
         <div class="post">
-            <a href="<?=BASE_URL?>describe/artefact/<?=$row['idURL']?>?<?=$auxiliary['filterString']?>" title="View Details" target="_blank">
+            <a href="<?=BASE_URL?>describe/artefact/<?=$row['idURL']?>?<?=$auxiliary['filterString']?>" title="View Details">
                 <img src="<?=$row['thumbnailPath']?>">
                 <p class="image-desc"><?=$row['cardName']?></p>
             </a>

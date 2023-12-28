@@ -59,7 +59,7 @@ $(document).ready(function(){
                 </div>
         <?php foreach ($data as $row) { ?>
                 <div class="post">
-                    <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>" target="_blank">
+                    <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>">
                         <div class="fixOverlayDiv">
                             <img class="img-responsive" src="<?=$row['thumbnailPath']?>">
                             <div class="OverlayText"><?=$row['leafCount']?> <?=$row['parentType']?><?php if($row['leafCount'] > 1) echo 's'; ?><br /><span class="link"><i class="fa fa-link"></i></span></div>
@@ -77,7 +77,7 @@ $(document).ready(function(){
             <div id="posts">
 <?php foreach ($data as $row) { ?>
         <div class="post no-border gap-above-med">
-            <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>" target="_blank">
+            <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>">
                 
                 <div class="border">
                     <p style="text-align: center; font-size: 20px;"class="image-desc"><strong><?=$row['name']?></strong></p><br />
