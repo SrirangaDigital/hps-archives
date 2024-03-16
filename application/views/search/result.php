@@ -43,3 +43,4 @@ $(document).ready(function(){
     <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i><br />
     Loading more items
 </div>
+

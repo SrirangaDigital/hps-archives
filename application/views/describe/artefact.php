@@ -1,3 +1,8 @@
+<?php 
+    $auxiliary = array_pop($data);
+    $parentType = $auxiliary['parentType'];
+    $filter = $auxiliary['filter'];
+?>
 <script>
 $(document).ready(function(){
 
@@ -16,16 +21,18 @@ $(document).ready(function(){
 });
 </script>
 <div class="container">
-    <div class="row gap-above-med">
-        <div class="col-md-9">
-            <ul class="pager">
-                <?php if($data['neighbours']['prevID']) {?> 
-                <li class="previous"><a href="<?=BASE_URL?>describe/artefact/<?=$data['neighbours']['prevID']?>?<?=$data['filter']?>">&lt; Previous</a></li>
+    <div class="row">
+        <div class="col-md-8">
+            <div class="pager">
+                <?php if($data['neighbours']['prevID']) {  ?> 
+                <li class="previous text-start"><a href="<?=BASE_URL?>describe/artefact/<?=$data['neighbours']['prevID']?>?<?=$data['filter']?>">&lt; Previous</a></li>
+
+
                 <?php } ?>
                 <?php if($data['neighbours']['nextID']) {?> 
-                <li class="next"><a href="<?=BASE_URL?>describe/artefact/<?=$data['neighbours']['nextID']?>?<?=$data['filter']?>">Next &gt;</a></li>
+                <li style="margin-top: -25px" class="next text-end "><a href="<?=BASE_URL?>describe/artefact/<?=$data['neighbours']['nextID']?>?<?=$data['filter']?>">Next &gt;</a></li>
                 <?php } ?>
-            </ul>
+            </div>
             <div id="viewletterimages" class="letter_thumbnails">
                 <?php
 
@@ -50,13 +57,14 @@ $(document).ready(function(){
                             $imageID = str_replace(DATA_URL . $data['details']['id'] . '/', '', $imagePath);
                             $imageID = 'image_' . intval(str_replace(PHOTO_FILE_EXT, '', $imageID));
 
-                            echo '<img id="' . $imageID . '" class="' . $class . 'img-responsive" data-original="' . $imagePath . '" src="' . $imageThumbPath . '">';
+                            echo '<img id="' . $imageID . '" class="' . $class . 'img-fluid" data-original="' . $imagePath . '" src="' . $imageThumbPath . '">';
+
                         }
                     }
                 ?>
             </div>
         </div>            
-        <div class="col-md-3">
+        <div class="col-md-4">
             <div class="image-desc-full">
                 <div class="albumTitle <?=$data['details']['Type']?>"><span class="head"><?=$data['details']['Type']?></span></div>
                 <ul class="list-unstyled">

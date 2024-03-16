@@ -1,5 +1,7 @@
 <script src='https://www.google.com/recaptcha/api.js'></script>
-<div class="container-fluid" id="home">
+<link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+
+<!-- <div class="container-fluid" id="home">
     <div class="row">
         <div class="col-md-12 clear-paddings">
             <div class="fixOverlayDiv">
@@ -13,14 +15,61 @@
             </div>
         </div>
     </div>
+</div> -->
+
+<div id="carouselExample" class="carousel slide ">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="<?=PUBLIC_URL?>images/stock/slide1.jpg" class="d-block w-100" alt="Building_image">
+            <div class="OverlayTextMain">
+                <div class="mainpage">
+                    <h2>Hyderabad Public School</h2>
+                    <p>The Journey of a Century , Established in 1923</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+<!-- <div class="container-fluid stats" id="collection">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Gallery</h1>
+            <ul class="list-inline">
+                <li class="stat-elem">
+                    <a href="<?=BASE_URL?>listing/categories/Photograph?select=Event">
+                        <h2><i class="fa fa-image"></i></h2>
+                        <p>Photographs</p>
+                    </a>
+                </li>
+                <li class="stat-elem">
+                    <a href="<?=BASE_URL?>listing/Categories/Magazine?select=Name">
+                        <h2><i class="fa fa-book"></i></h2>
+                        <p>Magazine</p>
+                    </a>
+                </li>
+                <li class="stat-elem">
+                    <a href="<?=BASE_URL?>listing/categories/Newspaper?select=Year">
+                        <h2><i class="fa fa-envelope"></i></h2>
+                        <p>News Paper Clippings</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div> -->
 
 
-        <div class="container-fluid stats" id="collection">
+
+
+
+
+
+        <!-- <div class="container-fluid stats" id="collection">
             <div class="row clear-margins">
-                <div class="col-md-12">
+                <div class="col-md-12 text-center">
                     <h1>Gallery</h1>
+                    <div class="col-md-2"></div>
                     <ul class="list-inline">
                         <li class="stat-elem">
                             <a href="<?=BASE_URL?>listing/categories/Photograph?select=Event">
@@ -28,20 +77,52 @@
                                 <p>Photographs</p>
                             </a>
                         </li>
-	                        <li class="stat-elem">
-	                            <a href="<?=BASE_URL?>listing/Categories/Magazine?select=Name">
-                                <!-- <a href="<?=BASE_URL?>Magazine"> -->
-	                                <h2><i class="fa fa-book"></i></h2>
-	                                <p>Magazine</p>
-	                            </a>
-	                        </li>
-                            <li class="stat-elem">
-                                <a href="<?=BASE_URL?>listing/categories/Newspaper?select=Year">
-                                <!-- <a href="<?=BASE_URL?>Documents"> -->
-                                    <h2><i class="fa fa-envelope"></i></h2>
-                                    <p>News Paper Clippings</p>
-                                </a>
-                            </li>
+                        <li class="stat-elem">
+                           <a href="<?=BASE_URL?>listing/Categories/Magazine?select=Name">
+                               <h2><i class="fa fa-book"></i></h2>
+                               <p>Magazine</p>
+                           </a>
+                       </li>
+                       <li class="stat-elem">
+                        <a href="<?=BASE_URL?>listing/categories/Newspaper?select=Year">
+                                <h2><i class="fa fa-envelope"></i></h2>
+                                <p>News Paper Clippings</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="col-md-2"></div>
+                </div>text-end
+            </div>
+        </div>
+ -->
+        <div class="container-fluid stats text-center">
+            <div class="row"><br />
+                <h1 class="mt-5">Gallery</h1>
+                
+                
+                <div class="col stat-elem mt-5 ">
+                    <a href="<?=BASE_URL?>listing/categories/Photograph?select=Event">
+                        <h2><i class="fa fa-image"></i></h2>
+                        <p class="">Photographs</p>
+                    </a>
+                </div>
+                <div class="col stat-elem mt-5">
+                    <a href="<?=BASE_URL?>listing/Categories/Magazine?select=Name">
+                     <h2><i class="fa fa-book"></i></h2>
+                     <p>Magazine</p>
+                 </a>
+                </div>
+                <div class="col stat-elem mt-5 ">
+                    <a href="<?=BASE_URL?>listing/categories/Newspaper?select=Year">
+                        <h2><i class="fa fa-envelope"></i></h2>
+                        <p class="">News Paper Clippings</p>
+                    </a>
+                </div>
+                
+            </div><br />
+            <div class="mt-5">&nbsp;</div>
+        </div>
+
 
 
 
