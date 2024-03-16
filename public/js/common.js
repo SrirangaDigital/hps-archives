@@ -226,8 +226,10 @@ function buildMasonryFromJson(json){
 
             displayString += '<div class="border">';
             displayString += '<p style="text-align: center; font-size: 20px;"class="image-desc"><strong>' + obj[i].name + '</strong></p><br />';
+
             displayString += '<div style="padding: 10px">' +  obj[i].leafCount + ' ' + obj[i].parentType;
-            // displayString += ' + obj[i].leafCount + ' ' + obj[i].parentType ';
+            // displayString += '<div style="padding: 10px">' +  obj[i].parentType;
+            
             displayString += '</div>';
             displayString += '</a>';
             displayString += '</div>';
@@ -236,17 +238,12 @@ function buildMasonryFromJson(json){
 
         }
         else{
-
-            // This snippet is for listing of artefacts
-
             displayString += '<div class="post">';
             displayString += '<a href="' + base_url + 'describe/artefact/' + obj[i].idURL + '?' + aux.filterString + '" title="View Details" target="_blank">';
             displayString += '<img class="img-responsive" src="' +  obj[i].thumbnailPath + '">';
             displayString += '</a>';
             displayString += '<p  class="image-desc">' + obj[i].cardName + '</p>';
             displayString += '</div>';
-
-
         }
     }
 

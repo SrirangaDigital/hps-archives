@@ -158,9 +158,9 @@ a.moretag {
 .copy-text a{
 	color: #e5ae47;
 }
-#k-subfooter{
+/*#k-subfooter{
 	margin-top: 30px;
-}
+}*/
 .wordcloud{
     text-align: center;
     margin-bottom: 30px;
@@ -251,7 +251,7 @@ a.moretag {
 
   content: ', ';
 }
-#grid.container .post img { padding: 0; margin: 0}
+#grid.container .post img { padding: 10px; margin: 0}
 
 /* Small devices */
 @media (min-width: 430px) {
@@ -283,8 +283,9 @@ a.moretag {
 
 /* Large devices */
 @media (min-width: 1200px) {
-    #grid > #posts .post { width: 300px; }
-    #grid > #posts .post.cs2 { width: 742px; }
+
+    #grid > #posts .post { width: 300px;}
+/*    #grid > #posts .post.cs2 { width: 1042px; }*/
 }
 .image-full-size img{
     /*max-width: 850px;*/
@@ -549,7 +550,7 @@ a.moretag {
 .stats{
     background-color: #395B98;
     color: #FFF;
-    padding: 80px 0px 100px 0px;
+/*    padding: 80px 0px 100px 0px;*/
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
