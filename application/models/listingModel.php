@@ -110,6 +110,7 @@ class listingModel extends Model {
 					[ '$sort' => $sortArray	],
 					[ '$skip' => $skip ],
 					[ '$limit' => $limit ]
+
 				]
 			);
 
@@ -123,6 +124,11 @@ class listingModel extends Model {
 			$artefact = $this->unsetControlParams($artefact);
 			$artefact['thumbnailPath'] = $this->getThumbnailPath($artefact['id']);
 			$artefact['idURL'] = str_replace('/', '_', $artefact['id']);
+			
+
+			// $artefact['idURL'] = BASE_URL . 'describe' . '/';
+
+			// var_dump($artefact['idURL']);exit(0);
 			// $artefact['cardName'] = (isset($artefact{$sortKeys[0]})) ? $artefact{$sortKeys[0]} : '';
 			
 			$artefact['cardName'] = [];

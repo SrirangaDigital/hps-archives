@@ -35,7 +35,8 @@ class searchModel extends Model {
 			}
 
 			$term = implode(' ', $data);
-		}	
+		}
+		// var_dump($term ); exit(0);	
 	
 		$skip = ($page - 1) * PER_PAGE;
 		$limit = PER_PAGE;
