@@ -4,6 +4,7 @@
 	"Event": "Republic day",
 	"Year" : "2012",
 	"AccessLevel": 0,
-	"CollectionId": "0001",
-	"Caption": "Republic day celebration 2012"
+	
+	"Caption": "Republic day celebration 2012",
+	"people" : " "
 }

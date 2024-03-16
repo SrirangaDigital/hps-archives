@@ -2,10 +2,9 @@
 	"id": "001/0002/0046",
 	"Type": "Photograph",
 	"Category" : "Photograph",
-	"AlbumID": "0002",
 	"Event": "Independence Day",
 	"Year" : "2015",
 	"AccessLevel": 0,
-	"CollectionId": "0002",
-	"Caption": "Independence Day celebration 2015"
+	"Caption": "Independence Day celebration 2015",
+	"people" : " "
 }

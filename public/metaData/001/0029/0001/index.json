@@ -5,5 +5,6 @@
 	"Event": "Workshop",
 	"Year" : "",
 	"AccessLevel": 0,
-	"Caption": "Workshop"
+	"Caption": "Workshop",
+	"people" : " "
 }

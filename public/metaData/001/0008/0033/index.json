@@ -1,10 +1,9 @@
 {
 	"id": "001/0008/0033",
 	"Type": "Photograph",
-	"AlbumID": "0001",
 	"Event": "Independence Day",
 	"Year" : "2018",
 	"AccessLevel": 0,
-	"CollectionId": "0001",
-	"Caption": "Independence Day 2018"
+	"Caption": "Independence Day 2018",
+	"people" : " "
 }

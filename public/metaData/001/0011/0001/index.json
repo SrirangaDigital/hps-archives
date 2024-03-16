@@ -1,10 +1,9 @@
 {
 	"id": "001/0011/0001",
 	"Type": "Photograph",
-	"AlbumID": "0001",
 	"Event": "Independence Day",
 	"Year" : "1967",
 	"AccessLevel": 0,
-	"CollectionId": "0001",
-	"Caption": "Independence Day Celebration 1967"
+	"Caption": "Independence Day Celebration 1967",
+	"people" : " "
 }

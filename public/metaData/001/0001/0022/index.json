@@ -2,10 +2,9 @@
 	"id": "001/0001/0022",
 	"Type": "Photograph",
 	"Category" : "Photograph",
-	"AlbumID": "0001",
 	"Event": "Independence Day",
 	"Year" : "1996",
 	"AccessLevel": 0,
-	"CollectionId": "0001",
-	"Caption": "Independence Day celebration 1996"
+	"Caption": "Independence Day celebration 1996",
+	"people" : " "
 }
