@@ -9,6 +9,7 @@ class listing extends Controller {
 
 	public function categories($query = [], $type = DEFAULT_TYPE) {
 
+
 		if($type == 'Miscellaneous') $this->redirect('listing/artefacts/Miscellaneous/' . MISCELLANEOUS_NAME);
 
 		$query = $this->model->preProcessURLQuery($query);
@@ -20,6 +21,7 @@ class listing extends Controller {
 		if(array_search($selectKey, $precastSelectKeys) === false) {$this->view('error/index');return;}
 
 		$categories = $this->model->getCategories($type, $selectKey, $page, $query);
+		// var_dump($categories);exit(0);
 		
 
 		if($page == '1')
