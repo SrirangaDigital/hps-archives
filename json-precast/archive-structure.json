@@ -8,8 +8,7 @@
 	},
 	"Magazine" : {
 		"selectKey" : [
-			"Name",
-			"Year"
+			"Name"
 		],
 		"sortKey" : {"Year" : -1}
 	},
