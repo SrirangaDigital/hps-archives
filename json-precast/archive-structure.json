@@ -6,6 +6,12 @@
 		],
 		"sortKey" : {"Year" : 1}
 	},
+	"CentenaryPhotograph" : {
+		"selectKey" : [
+			"Caption"
+		],
+		"sortKey" : {"Year" : 1}
+	},
 	"Magazine" : {
 		"selectKey" : [
 			"Name"
@@ -16,8 +22,10 @@
 		"selectKey" : [
 			"Year"
 		],
-		"sortKey" : {"Year" : -1}
+		"sortKey" : {"Year" : 1}
 	}
 }
+
+
 
 
