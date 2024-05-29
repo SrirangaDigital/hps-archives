@@ -228,14 +228,14 @@ a.moretag {
 .post {
     margin: 0 0 30px;
     text-align: left;
-    width: 100%;
-    border: 1px solid #efefef;
+    
 }
 .post a{
     color: inherit;
 }
 .post img {
-    width: 100%;
+    width: 300px;
+    height: 250px;
 }
 .post .image-desc {
     padding: 18px;
@@ -550,7 +550,6 @@ a.moretag {
 .stats{
     background-color: #395B98;
     color: #FFF;
-/*    padding: 80px 0px 100px 0px;*/
     text-align: center;
     text-transform: uppercase;
     font-weight: 300;
@@ -571,6 +570,7 @@ a.moretag {
     display: inline-block;
     text-decoration: none;
     color: inherit;
+    width: 100%
 }
 .stats .stat-elem{
     text-align: center;

@@ -119,12 +119,13 @@ function buildMasonry(){
 
     // Creates an instance of Masonry on #posts
 
-    container.masonry({
-        gutter: gutter,
-        itemSelector: '.post',
-        columnWidth: '.post',
-        fitWidth: true
-    });
+
+    //     container.masonry({
+    //     gutter: gutter,
+    //     itemSelector: '.post',
+    //     columnWidth: '.post',
+    //     fitWidth: true
+    // });
 
     if (!jQuery('#posts').parent().hasClass('container')) {
     
