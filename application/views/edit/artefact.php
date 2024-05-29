@@ -22,10 +22,20 @@
         $disable = (in_array($key, $disableKeys)) ? 'readonly' : '';
 ?>
                     <div class="form-group" id="frmgroup<?=$formgroup?>">
-                        <input type="text" class="form-control edit key" name="id<?=$count?>[]"  value="<?=$key?>" <?=$disable?> />
-                        <input type="text" class="form-control edit value" name="id<?=$count?>[]"  value="<?=$value?>"  <?=$disable?> />
+                        <div class="container text-start">
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control edit key" name="id<?=$count?>[]"  value="<?=$key?>" <?=$disable?> />
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control edit value" name="id<?=$count?>[]"  value="<?=$value?>"  <?=$disable?> />
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
         <?php if(!($disable)) { ?>
-                        <i class="fa fa-times" title="Remove field" onclick="removeUpdateDataElement('frmgroup<?=$formgroup?>')" value="Remove"></i>
+                        <!-- <i class="fa fa-times" title="Remove field" onclick="removeUpdateDataElement('frmgroup<?=$formgroup?>')" value="Remove"></i> -->
         <?php } if(($auxiliary['foreignKeys']) && (in_array($key, $auxiliary['foreignKeys']))) { ?>
                         <a  class="editDetails" href="<?=BASE_URL?>edit/foreignKey/<?=urlencode($key) . '/'. urlencode($value)?>?refererArtefact=<?=$refererId?>">Edit</a>
         <?php } ?>

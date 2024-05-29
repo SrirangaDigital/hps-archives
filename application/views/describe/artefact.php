@@ -3,6 +3,22 @@
     $parentType = $auxiliary['parentType'];
     $filter = $auxiliary['filter'];
 ?>
+
+<style>
+img {
+/*  border: 1px solid #ddd; /* Gray border */*/
+/*  border-radius: 4px;  /* Rounded border */*/
+/*  padding: -12px; /* Some padding */*/
+
+/*  width: 100px; /* Set a small width */*/
+}
+
+/* Add a hover effect (blue shadow) */
+/*img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}*/
+</style>
+
 <script>
 $(document).ready(function(){
 
@@ -20,19 +36,19 @@ $(document).ready(function(){
     });
 });
 </script>
+
+
 <div class="container">
-    <div class="row">
-        <div class="col-md-8">
-            <div class="pager">
+    <div class="row gap-above-med">
+        <div class="col-md-9">
+            <ul class="pager">
                 <?php if($data['neighbours']['prevID']) {  ?> 
-                <li class="previous text-start"><a href="<?=BASE_URL?>describe/artefact/<?=$data['neighbours']['prevID']?>?<?=$data['filter']?>">&lt; Previous</a></li>
-
-
+                 <li class="previous text-start"><a href="<?=BASE_URL?>describe/artefact/<?=$data['neighbours']['prevID']?>?<?=$data['filter']?>">&lt; Previous</a></li>
                 <?php } ?>
                 <?php if($data['neighbours']['nextID']) {?> 
                 <li style="margin-top: -25px" class="next text-end "><a href="<?=BASE_URL?>describe/artefact/<?=$data['neighbours']['nextID']?>?<?=$data['filter']?>">Next &gt;</a></li>
                 <?php } ?>
-            </div>
+            </ul>
             <div id="viewletterimages" class="letter_thumbnails">
                 <?php
 
@@ -59,12 +75,15 @@ $(document).ready(function(){
 
                             echo '<img id="' . $imageID . '" class="' . $class . 'img-fluid" data-original="' . $imagePath . '" src="' . $imageThumbPath . '">';
 
+                            // echo '<a href="' . $imageThumbPath . '"><img id="' . $imageID . '" class="' . $class . 'img-fluid" data-original="' . $imagePath . '" src="' . $imageThumbPath . '"></a>';
+
+                           
                         }
                     }
                 ?>
             </div>
         </div>            
-        <div class="col-md-4">
+        <div class="col-md-3">
             <div class="image-desc-full">
                 <div class="albumTitle <?=$data['details']['Type']?>"><span class="head"><?=$data['details']['Type']?></span></div>
                 <ul class="list-unstyled">
@@ -102,5 +121,7 @@ $(document).ready(function(){
         </div>
     </div>
 </div>
-
 <script type="text/javascript" src="<?=PUBLIC_URL?>js/viewer.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+

@@ -98,26 +98,35 @@
         <div class="container-fluid stats text-center">
             <div class="row"><br />
                 <h1 class="mt-5">Gallery</h1>
-                
-                
-                <div class="col stat-elem mt-5 ">
+                <div class="col-20 col"></div>
+                <div class="col-20 col stat-elem mt-5 ">
                     <a href="<?=BASE_URL?>listing/categories/Photograph?select=Event">
                         <h2><i class="fa fa-image"></i></h2>
                         <p class="">Photographs</p>
                     </a>
                 </div>
-                <div class="col stat-elem mt-5">
+                <div class="col-20 col stat-elem mt-5">
                     <a href="<?=BASE_URL?>listing/Categories/Magazine?select=Name">
                      <h2><i class="fa fa-book"></i></h2>
                      <p>Magazine</p>
                  </a>
                 </div>
-                <div class="col stat-elem mt-5 ">
+                <div class="col-20 col stat-elem mt-5 ">
                     <a href="<?=BASE_URL?>listing/categories/Newspaper?select=Year">
                         <h2><i class="fa fa-envelope"></i></h2>
                         <p class="">News Paper Clippings</p>
                     </a>
                 </div>
+
+                <div class="col-20 col stat-elem mt-5 ">
+                    <a href="<?=BASE_URL?>listing/categories/CentenaryPhotograph?select=Caption">
+                        <h2><i class="fa fa-image"></i></h2>
+                        <p class="">Centenary Photographs</p>
+                    </a>
+                </div>
+
+
+                <div class="col-20 col" ></div>
                 
             </div><br />
             <div class="mt-5">&nbsp;</div>
@@ -174,7 +183,9 @@
                 </div> -->
             </div>
         </div>
-        
+
+
+
 
 <script>
 var images = new Array ("forthcoming-event/DSCN0602.JPG", "forthcoming-event/DSCN0603.JPG", "forthcoming-event/DSCN0606.JPG", "forthcoming-event/DSCN0607.JPG", "forthcoming-event/DSCN0612.JPG");

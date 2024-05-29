@@ -54,7 +54,7 @@ $(document).ready(function(){
         </div>
 
 <?php
-    if($parentType == "Magazine"){ ?>
+    if($parentType == "Magazine" ){ ?>
 
         <div id="grid" class="container text-center" data-page="1" data-go="1">
     <div class="row  ms-5 me-5 text-center" id="posts">
@@ -77,7 +77,7 @@ $(document).ready(function(){
 </div>
 
 <?php } ?>
-<?php if ($parentType == "Photograph" || $parentType == "Newspaper" ){ ?>
+<?php if ($parentType == "Photograph" || $parentType == "Newspaper" || $parentType == "CentenaryPhotograph"){ ?>
     <div id="grid" class="container-fluid text-center" data-page="1" data-go="1">
     <div class="row  ms-5 me-5 text-center" id="posts">
         <!-- <div class="post no-border p-2">

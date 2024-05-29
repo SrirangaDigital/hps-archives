@@ -7,7 +7,7 @@
 </div>
 
 <?php
-    if($parentType == "Magazine"){ ?>
+    if($parentType == "Magazine" ){ ?>
         <div id="grid" class="container" data-page="1" data-go="1">
             <div class="row  ms-5 me-4 mt-5" id="posts">
                 <div class="post no-border p-2">
@@ -32,7 +32,7 @@
         <?php } ?>
             </div>
         </div>
-<?php } else if ($parentType == "Photograph" || $parentType == "Newspaper" ){ ?>
+<?php } else if ($parentType == "Photograph" || $parentType == "Newspaper" || $parentType == "CentenaryPhotograph"){ ?>
 
 <div  id="grid" class="container" data-page="1" data-go="1">
     <div class="row  ms-5 me-4 mt-5" id="posts">

@@ -5,7 +5,7 @@
 <script>
 $(document).ready(function(){
 
-    $('.post.no-border').prepend('<div class="albumTitle Search"><i class="fa fa-search"></i>' + '<br /><br /><span class="select"><?=$term?>' + '</span></div>');
+    // $('.post.no-border').prepend('<div class="albumTitle Search"><i class="fa fa-search"></i>' + '<br /><br /><span class="select"><?=$term?>' + '</span></div>');
 
     $(window).scroll(function(){
 
@@ -23,14 +23,14 @@ $(document).ready(function(){
     });
 });     
 </script>
-
-<div id="grid" class="container-fluid" data-page="1" data-go="1">
-    <div id="posts">
-        <div class="post no-border"></div>
+<div class="albumTitle Search <?=$parentType?>"><span class="select"><?=$term?></span></div>
+<div id="grid" class="container text-center " data-page="1" data-go="1">
+    <div class="row me-5 text-center " id="posts">
 <?php foreach ($data as $row) { ?>
-        <div class="post">
+        
+  <div class="post">
             <a href="<?=BASE_URL?>describe/artefact/<?=$row['idURL']?>" title="View Details" target="_blank">
-                <img src="<?=$row['thumbnailPath']?>">
+                <img class="img-thumbnail" src="<?=$row['thumbnailPath']?>">
                 <p class="image-desc">
                     <?=$row['cardName']?>
                 </p>
@@ -39,8 +39,13 @@ $(document).ready(function(){
 <?php } ?>
     </div>
 </div>
-<div id="loader-icon">
+
+
+    
+
+<!-- <div id="loader-icon">
     <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i><br />
     Loading more items
-</div>
+</div> -->
+
 
