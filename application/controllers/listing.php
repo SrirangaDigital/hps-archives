@@ -14,10 +14,13 @@ class listing extends Controller {
 
 		$query = $this->model->preProcessURLQuery($query);
 
+
+
 		$query['select'] = (isset($query['select'])) ? $query['select'] : ''; $selectKey = $query['select']; unset($query['select']);
 		$query['page'] = (isset($query['page'])) ? $query['page'] : "1"; $page = $query['page']; unset($query['page']);
 
 		$precastSelectKeys = $this->model->getPrecastKey($type, 'selectKey');
+		
 		if(array_search($selectKey, $precastSelectKeys) === false) {$this->view('error/index');return;}
 
 		$categories = $this->model->getCategories($type, $selectKey, $page, $query);
@@ -36,8 +39,10 @@ class listing extends Controller {
 
 		$query['page'] = (isset($query['page'])) ? $query['page'] : "1"; $page = $query['page']; unset($query['page']);
 		$sortKeys = $this->model->getPrecastKey($type, 'sortKey');
+		// var_dump($sortKeys);exit(0);
 
 		$artefacts = $this->model->getArtefacts($type, $sortKeys, $page, $query);
+		// var_dump($artefacts);exit(0);
 
 		if($page == '1')
 			($artefacts != 'noData') ? $this->view('listing/artefacts', $artefacts) : $this->view('error/index');

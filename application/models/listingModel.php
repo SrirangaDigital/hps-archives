@@ -13,37 +13,54 @@ class listingModel extends Model {
 		$db = $this->db->useDB();
 		$collection = $this->db->selectCollection($db, ARTEFACT_COLLECTION);
 
+		
+
 		$skip = ($page - 1) * PER_PAGE;
 		$limit = PER_PAGE;
 
 		$matchFilter = $this->preProcessQueryFilter($filter);
+
 		$match = [ 'DataExists' => $this->dataShowFilter, 'Type' => $type ] + $matchFilter;
+
+
 
 		$iterator = $collection->aggregate(
 				 [
 					[ '$match' => $match ],
 					[ '$group' => [ '_id' => [ 'Category' => '$' . $selectKey, 'Type' => '$Type' ], 'count' => [ '$sum' => 1 ]]],
 					[ '$sort' => [ '_id' => 1 ] ],
-					[ '$skip' => $skip ],
+					// [ '$skip' => $skip ],
 					[ '$limit' => $limit ]
 				]
 			);
 
 		$data = [];
 
+
+
 		$precastSelectKeys = $this->getPrecastKey($type, 'selectKey');
+
 		$selectKeyIndex = array_search($selectKey, $precastSelectKeys);
+
 		$nextSelectKey = (isset($precastSelectKeys[$selectKeyIndex + 1])) ? $precastSelectKeys[$selectKeyIndex + 1] : false;
 
 		$urlFilter = $this->filterArrayToString($filter);
 		$urlFilter = ($urlFilter) ? '&' . $urlFilter : '';
 
+
+
 		$auxiliary = ['parentType' => $type, 'selectKey' => $selectKey, 'filter' => $filter];
 
+
+
 		foreach ($iterator as $row) {
+
+			// var_dump($iterator);exit(0);
 			
 			$category['name'] = (isset($row['_id']['Category'])) ? $row['_id']['Category'] : MISCELLANEOUS_NAME;
 			$filter[$selectKey] = (isset($row['_id']['Category'])) ? $category['name'] : 'notExists';
+
+
 
 			$category['nameURL'] = $this->filterSpecialChars($category['name']);
 		
@@ -98,7 +115,6 @@ class listingModel extends Model {
 		// Form sort array
 		$sortArray['sortKeyExists'] = -1;
 		foreach ($sortKeys as $key => $value) {
-			
 			$sortArray[$key] = $value;
 		}
 		$sortArray['id'] = 1;
@@ -107,14 +123,18 @@ class listingModel extends Model {
 				 [
 					[ '$match' => $match ],
 					[ '$project' => $projectArray ],
-					[ '$sort' => $sortArray	],
+					// [ '$sort' => $sortArray	],
 					[ '$skip' => $skip ],
 					[ '$limit' => $limit ]
 
 				]
 			);
 
+
+
 		$data = [];
+
+		// var_dump($data);exit(0);
 
 		$viewHelper = new viewHelper();
 	
@@ -139,7 +159,9 @@ class listingModel extends Model {
 			$artefact['cardName'] = '<span>' . implode('</span><br/><span>', $artefact['cardName']) . '</span>';
 			
 			array_push($data, $artefact);
+			// var_dump($artefact);exit(0);
 		}
+		// var_dump($data);exit(0);
 
 		if($data){
 			$auxiliary = ['filterString' => $this->filterArrayToString($filter), 'filter' => $filter, 'sortKey' => $sortKeys];
@@ -149,6 +171,7 @@ class listingModel extends Model {
 			$data = 'noData';
 
 		return $data;
+
 	}
 	
 	public function getJournalCategories($type, $selectKey, $filter = ''){
