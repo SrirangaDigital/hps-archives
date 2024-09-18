@@ -142,8 +142,23 @@
     border: 2px solid #fff;
     color: #fff;
 }
+
+@media(max-width:768px) {
+      .OverlayTextMain{
+        font-size: 7px;
+    }
+}
+
+
 @media(max-width:768px) {
     .caption-content{
         display: none;
     }
+}
+
+@media(max-width:998px) {
+    #imght{
+        height: 200px;
+    }
+
 }

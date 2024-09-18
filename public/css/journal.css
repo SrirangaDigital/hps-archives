@@ -9,16 +9,13 @@ Primary style
 	unicode-range: U+0C80-0CFF;
 }
 
-.mainpage{
-  margin-top: 20px;
-  margin-bottom: 100px;
-}
-.mainpage h1{
-  font-size: 1.9em;
+
+./*mainpage h1{
+  font-size: 1.5em;
   font-family: 'Nudi', 'Lato', sans-serif;
   color: #1565C0;
   font-weight: 400;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 .mainpage h2{
   font-size: 1.4em;
@@ -42,7 +39,7 @@ Primary style
 .mainpage a{
   color: inherit;
   text-decoration: none;
-}
+}*/
 .mainpage .full-width-card a:hover{
   border-bottom: 1px dotted #BBB;
 }

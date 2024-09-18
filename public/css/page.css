@@ -226,7 +226,7 @@ a.moretag {
 
 
 .post {
-    margin: 0 0 30px;
+/*    margin: 0 0 30px;*/
     text-align: left;
     
 }
@@ -238,7 +238,7 @@ a.moretag {
     height: 250px;
 }
 .post .image-desc {
-    padding: 18px;
+    padding: 20px;
     margin-bottom: 0;
 }
 .image-desc > strong:empty{
@@ -258,7 +258,7 @@ a.moretag {
     #grid > #posts .post { width: 300px; }
     #grid > #posts .post.cs2 { width: 100%; }
     .post img { padding: 0; }
-    #posts {margin-left: -20px;}
+/*    #posts {margin-left: 100px;}*/
 }
 
 /* Medium devices */
@@ -393,16 +393,17 @@ a.moretag {
 .OverlayText .link{
     float: right;
 }
-.OverlayTextMain .mainpage{
+.carousel-caption{
     
     font-weight: normal !important;
-    max-width: 65%;
+    max-width: 50%;
     text-align: left;
-    line-height: 24px;
+    line-height: 20px;
 }
 @media (max-width: 430px) {
     .OverlayTextMain {
-        display: none;
+        display: block;
+        font-size: 7px;
     }
 }
 
@@ -547,12 +548,22 @@ a.moretag {
 
 /*Statistics*/
 
-.stats{
+.blue{
+    padding: 50px;
     background-color: #395B98;
     color: #FFF;
-    text-align: center;
+/*    height: 100px;*/
+    width: 100%;
+}
+
+.stats{
+/*    height: 300px;*/
+/*    width: 2500px;*/
+    background-color: #395B98;
+    color: #FFF;
+/*    text-align: center;*/
     text-transform: uppercase;
-    font-weight: 300;
+/*    font-weight: 300;*/
 }
 .news{
   text-align: center;
@@ -560,21 +571,22 @@ a.moretag {
 }
 .news h1{
     font-size: 24px;
-    margin-bottom: 20px;
+/*    margin-bottom: 20px;*/
 }
 .stats h1{
     font-size: 24px;
-    margin-bottom: 60px;
+/*    margin-bottom: 60px;*/
 }
 .stats .stat-elem a{
     display: inline-block;
     text-decoration: none;
     color: inherit;
-    width: 100%
+/*    width: 100%*/
 }
 .stats .stat-elem{
     text-align: center;
-    margin: 0 30px;
+/*    margin-left: 00px;*/
+    margin: 50px 50px;
 }
 .stats .stat-elem h2{
     font-size: 50px;
