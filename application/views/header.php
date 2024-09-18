@@ -45,10 +45,6 @@
     <link rel="stylesheet" href="<?=PUBLIC_URL?>css/viewer.css">
     <script type="text/javascript">var base_url = "<?= BASE_URL?>";</script>
 
-    <!-- <script type="text/javascript">
-        var base_url = "<?=BASE_URL?>";
-        var photos = "<?=PHOTOS?>";
-    </script> -->
     <!-- Favicon
     –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="icon" type="image/png" href="<?=PUBLIC_URL?>images/hpslogonew.png">
@@ -62,7 +58,14 @@
 .navbar-nav {
   align-items: center;
 }
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
 
+.dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
 </style>
 <body oncontextmenu="return false;" >
 <?php // echo file_get_contents( BASE_URL . 'vendor/analyticstracking.php' ); ?>
@@ -141,14 +144,16 @@
                     <li class="nav-item p-3">
                         <a class="nav-link " href="<?=BASE_URL?>#collection">Gallery</a>
                     </li>
+                     <li><a>·</a></li>
+                     <li class="nav-item">
+                        <a class="nav-link"  href="<?=BASE_URL?>Contact_info">Contact</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" >
                           <img style="height: 120px;" class="img-fluid" src="<?=PUBLIC_URL?>images/hpslogonew.png"  alt="Navbar_image">
                       </a>
                   </li>
-                    <li class="nav-item">
-                        <a class="nav-link"  href="<?=BASE_URL?>Contact_info">Contact</a>
-                    </li>
+                   
                     <!-- <li><a>·</a></li> -->
                     <li class="nav-item p-3">
                         <form class="navbar-form d-flex" role="search" action="<?=BASE_URL?>search/field/" method="get">
@@ -180,6 +185,18 @@
 
 
                     </li>
+                     <li><a>·</a></li>
+                    <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Help
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="<?=PUBLIC_URL?>help.pdf" target="_blank">Advanced Search Manual</a></li>
+            <li><a class="dropdown-item" href="<?=PUBLIC_URL?>Users_Manual.pdf" target="_blank">User Manual</a></li>
+            <!-- <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+          </ul>
+        </li>
                 </ul>
                 
             </div>
