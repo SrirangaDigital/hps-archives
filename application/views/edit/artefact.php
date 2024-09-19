@@ -46,7 +46,7 @@
     }
 ?>
                     <div id="keyvalues"></div>
-                    <i class="fa fa-plus" title="Add new field" id="keyvaluebtn" onclick="addnewfields(keyvaluebtn)"></i>
+                    <!-- <i class="fa fa-plus" title="Add new field" id="keyvaluebtn" onclick="addnewfields(keyvaluebtn)"></i> -->
                     <input class="updateSubmit" type="submit" id="submit" value="Update Data" />
                 </form>    
             </div>

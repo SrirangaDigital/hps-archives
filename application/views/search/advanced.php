@@ -1,13 +1,15 @@
 <div class="container gap-above-med">
 	<div class="row">
-		<div class="col-md-2"></div>
+		<!-- <div class="col-md-2"><a target="_blank" href="<?=PUBLIC_URL?>help.pdf"><button style="text-decoration: none; color: black">Advanced Search - Help</button></a></div> -->
 		<div class="col-md-8">
 			<h2>Advanced Search</h2>
 		</div>
 		<div class="col-md-2"></div>
 	</div>
 	<div class="row gap-above-med">
-		<div class="col-md-2"></div>
+		<div class="col-md-2">
+			<!-- <a target="_blank" href="<?=PUBLIC_URL?>help.pdf"><button style="text-decoration: none; color: black">Help</button></a> -->
+		</div>
 		<div class="col-md-8">
 			<form method="GET" class="form-inline updateDataArchive" role="form" id="updateData" action="<?=BASE_URL?>search/field" onsubmit="return validate()">
 				<div class="form-group">
@@ -16,6 +18,7 @@
 						<option value="Photograph">Photograph</option>
 						<option value="Magazine">Magazine</option>
 						<option value="Newspaper">Newspaper</option>
+						<option value="CentenaryPhotograph">CentenaryPhotograph</option>
 					</select><br />
 				</div>
 				<div class="keyValuePair">	
@@ -28,7 +31,8 @@
 						</select>
 						<input type="text" class="form-control edit value" placeholder="Enter Value" />
 					</div>					
-				</div>	
+				</div>
+
 				<i class="fa fa-plus" title="Add new field" id="addKeyValue"></i>
 				<input class="updateSubmit" type="submit" id="submit" value="Search" />
 			</form>    

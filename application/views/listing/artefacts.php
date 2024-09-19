@@ -45,7 +45,7 @@ $(document).ready(function(){
 <script type="text/javascript">
     document.addEventListener('contextmenu', event => event.preventDefault());
 </script>
-<div class="post no-border p-2">
+<div class="post p-5 text-center">
             <div style="background-color: orange;" class="albumTitle <?=$parentType?>">
                 <strong><span  class="head"><?=$parentType?></span></strong><br />
 <?php foreach (array_reverse($filter) as $key => $value) { ?>
@@ -66,7 +66,7 @@ $(document).ready(function(){
 <?php } ?>
         </div> -->
 <?php foreach ($data as $row) { ?>
-        <div class="post no-border ms-5 me-5">
+        <div class="post no-border ms-5 me-5 text-center">
             <a href="<?=BASE_URL?>describe/magazine/<?=$row['idURL']?>?<?=$auxiliary['filterString']?>" title="View Details">
                 <!-- <img src="<?=$row['thumbnailPath']?>" height="250px;" width="300px;"> -->
                 <strong><p style="font-size: 20px" class="card-title image-desc"><?=$row['cardName']?></p></strong>
@@ -78,8 +78,9 @@ $(document).ready(function(){
 
 <?php } ?>
 <?php if ($parentType == "Photograph" || $parentType == "Newspaper" || $parentType == "CentenaryPhotograph"){ ?>
-    <div id="grid" class="container-fluid text-center" data-page="1" data-go="1">
-    <div class="row  ms-5 me-5 text-center" id="posts">
+    <div class="container-fluid text-center">
+    <!-- <div class="row" id="posts"> -->
+        <div class="row gx-0" >
         <!-- <div class="post no-border p-2">
             <div style="background-color: orange;" class="albumTitle <?=$parentType?>">
                 <span class="head"><?=$parentType?></span><br />
@@ -88,9 +89,9 @@ $(document).ready(function(){
 <?php } ?>
         </div> -->
 <?php foreach ($data as $row) { ?>
-        <div class="post no-border ms-3 me-3">
+        <div class="col">
             <a href="<?=BASE_URL?>describe/artefact/<?=$row['idURL']?>?<?=$auxiliary['filterString']?>" title="View Details">
-                <img class="card-img-top img-fluid" src="<?=$row['thumbnailPath']?>">
+                <img  style="height: 250px; width: 250px;" src="<?=$row['thumbnailPath']?>">
                 <p class="card-title image-desc col"><?=$row['cardName']?> </p>
             </a>
         </div>
@@ -98,6 +99,7 @@ $(document).ready(function(){
     </div>
 </div>
 <?php } ?>
+</div>
 
 <!-- <div id="loader-icon">
     <i class="fa fa-spinner fa-pulse fa-3x fa-fw"></i><br />

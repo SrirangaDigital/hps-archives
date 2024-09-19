@@ -8,6 +8,16 @@
                 <li class="d-inline p-3"><a class="link-secondary sub-nav" href="<?=BASE_URL?>listing/Categories/Magazine?select=Name">
                     Magazine
                 </a></li>
+
+                <?php
+                if(isset($_SESSION['login']))
+                {
+                    echo"<li class='d-inline'> <a href='listing/categories/Newspaper?select=Year'>
+                </a>News Paper Clippings</li>";
+                }
+                ?>
+                <li class="d-inline p-3"><a class="link-secondary sub-nav" href="<?=BASE_URL?>listing/categories/CentenaryPhotograph?select=Event">Centenary Photographs</a></li>
+
                 <li class="d-inline"><a class="link-secondary sub-nav" href="<?=BASE_URL?>search/advanced">Advanced Search</a></li><br />
                 <li class="d-inline p-3 mt-3">
                     <form class="form-search " role="search" action="<?=BASE_URL?>search/field/" method="get">

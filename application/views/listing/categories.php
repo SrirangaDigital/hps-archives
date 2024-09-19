@@ -19,7 +19,7 @@
                         <span class="select"><?=preg_replace('/([A-Z])/', " $1", $auxiliary['selectKey'])?><em> - wise</em></span>
                     </div>
                 </div>
-        <?php foreach ($data as $row) { ?>
+        <?php foreach ($data as $row) {  ?>
                 <div class="post">
                     <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>">
                         <div class="fixOverlayDiv">

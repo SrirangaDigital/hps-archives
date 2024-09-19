@@ -39,8 +39,8 @@ $(document).ready(function(){
 
 
 <div class="container">
-    <div class="row gap-above-med">
-        <div class="col-md-9">
+    <div class="row  gap-above-med">
+        <div class="col-md-8 col-sm-12">
             <ul class="pager">
                 <?php if($data['neighbours']['prevID']) {  ?> 
                  <li class="previous text-start"><a href="<?=BASE_URL?>describe/artefact/<?=$data['neighbours']['prevID']?>?<?=$data['filter']?>">&lt; Previous</a></li>
@@ -83,7 +83,7 @@ $(document).ready(function(){
                 ?>
             </div>
         </div>            
-        <div class="col-md-3">
+        <div class="col-md-4 col-sm-12">
             <div class="image-desc-full">
                 <div class="albumTitle <?=$data['details']['Type']?>"><span class="head"><?=$data['details']['Type']?></span></div>
                 <ul class="list-unstyled">

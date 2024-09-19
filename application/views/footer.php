@@ -3,8 +3,8 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <p  class="copy-text ">
-                        © 2023 The Hyderabad Public School. All rights reserved.
+                    <p  style="color: black;" class="copy-text ">
+                        © 2024 The Hyderabad Public School. All rights reserved.
                     </p>
                 </div>
             </div>
