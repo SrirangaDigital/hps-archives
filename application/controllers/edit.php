@@ -72,6 +72,7 @@ class edit extends Controller {
 		$path = PHY_METADATA_URL . $jsonData['id'] . "/index.json";
 		if(!($this->model->writeJsonToPath($jsonData, $path))){
 			$this->view('error/prompt',["msg"=>"Problem in writing data to file"]); return;
+
 		}
 
 		// Insert foreignKey details to artefact details

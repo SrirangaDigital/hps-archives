@@ -14,13 +14,10 @@ class listing extends Controller {
 
 		$query = $this->model->preProcessURLQuery($query);
 
-
-
 		$query['select'] = (isset($query['select'])) ? $query['select'] : ''; $selectKey = $query['select']; unset($query['select']);
 		$query['page'] = (isset($query['page'])) ? $query['page'] : "1"; $page = $query['page']; unset($query['page']);
 
 		$precastSelectKeys = $this->model->getPrecastKey($type, 'selectKey');
-		
 		if(array_search($selectKey, $precastSelectKeys) === false) {$this->view('error/index');return;}
 
 		$categories = $this->model->getCategories($type, $selectKey, $page, $query);

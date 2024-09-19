@@ -27,7 +27,9 @@ class data extends Controller {
 			$content = $this->model->beforeDbUpdate($content);
 
 			$result = $collection->insertOne($content);
+
 		}
+		echo "Data Inserted successfully";
 
 		// Insert fulltext
 		$this->insertFulltext();

@@ -18,6 +18,14 @@ class gitcvs extends Controller {
 			$this->absoluteRedirect($url);
 			return;
 		}
+?>
+
+		<center><p style="color: green ; font-size: 50px;">Data Updated Successfully</p></center>
+		<a href="<?=BASE_URL?>describe/artefact/<?=$idURL?>">Back</a>
+
+<?php
+		
+
 
 		$statusMsg = array();
 
@@ -57,8 +65,8 @@ class gitcvs extends Controller {
 			$repo->run('push ' . GIT_REMOTE . ' master');
 			array_push($statusMsg, 'Local changes pushed to remote');
 		}
-		
 		$this->absoluteRedirect($url);
+
 	}
 
 	public function checkoutFiles($files){

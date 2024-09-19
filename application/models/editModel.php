@@ -15,6 +15,8 @@ class editModel extends Model {
 
 		$result = $collection->findOne([$key => $value], ['projection' => ['ForeignKeyId' => 1]]);
 
+		
+
 		return ($result) ? $result['ForeignKeyId'] : '';
 	}
 

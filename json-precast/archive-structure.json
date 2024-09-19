@@ -8,7 +8,8 @@
 	},
 	"CentenaryPhotograph" : {
 		"selectKey" : [
-			"Caption"
+			"Event",
+			"Year"
 		],
 		"sortKey" : {"Year" : 1}
 	},
