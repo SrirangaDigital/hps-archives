@@ -1148,3 +1148,10 @@ ul#viewletterimages > li > img {
 img.exhibition-icon{
   height: 70px;
 }
+
+@media (max-width: 768px) {
+   .albumTitle span.head{
+      font-size: 15px;
+   }
+}
+
