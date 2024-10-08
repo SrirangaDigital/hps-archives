@@ -3,6 +3,12 @@
     $parentType = $auxiliary['parentType'];
     $filter = $auxiliary['filter'];
 ?>
+
+<style type="text/css">
+    .capital{
+        text-transform: uppercase;
+    }
+</style>
 <div class="gap-above-med">
 </div>
 
@@ -37,12 +43,11 @@
 <div  id="grid" class="container" data-page="1" data-go="1">
     <div class="row  ms-5 me-4 mt-5" id="posts">
 <?php foreach ($data as $row) {  ?>
-
         <div class="post no-border p-2">
-            <a href="<?=$row['nextURL']?>" title="<?=$row['name']?>">
+            <a href="<?=$row['nextURL']?> " title="<?=$row['name'] ?>">
                 <div style="background-color: lightgray;" class="border card w-100 rounded">
                     <div class="card-body">
-                        <p style="text-align: center; font-size: 17px;"class=" card-title"><strong><?=$row['name']?></strong></p><br />
+                        <p style="text-align: center; font-size: 16px;"class=" card-title"><strong class="capital"><?=$row['name']?></strong></p><br />
                         <div style="padding: 10px;">
                             <?php echo $row['leafCount'] ; echo ' '; echo $row['parentType']; ?><br /><span class="link card-text"></span>
                         </div>
