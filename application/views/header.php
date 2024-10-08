@@ -187,9 +187,10 @@
                     </li>
                      <li><a>·</a></li>
                     <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Help
-          </a>
+                         <a style="font-size: 13.5px;" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Help
+                      </a>
+                    
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="<?=PUBLIC_URL?>help.pdf" target="_blank">Advanced Search Manual</a></li>
             <li><a class="dropdown-item" href="<?=PUBLIC_URL?>Users_Manual.pdf" target="_blank">User Manual</a></li>
