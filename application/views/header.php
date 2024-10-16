@@ -192,7 +192,7 @@
                       </a>
                     
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="<?=PUBLIC_URL?>help.pdf" target="_blank">Advanced Search Manual</a></li>
+            <li><a class="dropdown-item" href="<?=PUBLIC_URL?>Adv_filter.pdf" target="_blank">Advanced Search Manual</a></li>
             <li><a class="dropdown-item" href="<?=PUBLIC_URL?>Users_Manual.pdf" target="_blank">User Manual</a></li>
             <!-- <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#">Something else here</a></li> -->
