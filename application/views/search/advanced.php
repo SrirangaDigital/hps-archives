@@ -17,15 +17,32 @@
 					<select class="form-control selecttypevalue" name="Type">
 						<option value="Photograph">Photograph</option>
 						<option value="Magazine">Magazine</option>
-						<option value="Newspaper">Newspaper</option>
+						<!-- <option value="Newspaper">Newspaper</option> -->
 						<option value="CentenaryPhotograph">CentenaryPhotograph</option>
 					</select><br />
 				</div>
+
+				  <?php 
+				  unset($data[0]); 
+				  unset($data[2]);
+				  unset($data[5]); 
+				  unset($data[3]);
+				  unset($data[7]); 
+				  unset($data[12]);  
+				  unset($data[16]);
+				  unset($data[21]);  
+				  unset($data[1]); 
+				  unset($data[6]); 
+
+				  unset($data[22]);
+				 // var_dump($data);exit(0); 
+				 ?>
 				<div class="keyValuePair">	
 					<div class="form-group">
 						<select class="keySelect form-control">
 							<option value="">Select Key</option>
 							<?php 	foreach ($data as $key) {	?>
+
 							<option value="<?=$key?>"><?=$key?></option>
 							<?php } ?>
 						</select>
